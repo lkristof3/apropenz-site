@@ -16,7 +16,7 @@ Igyekszünk 24-48 órán belül válaszolni minden megkeresésre.
 A fiók törlését a Profil menüpont alatt kezdeményezheti, vagy írjon nekünk e-mailben.
 
 **Hol tárolódnak az adataim?**  
-Adatait biztonságosan, Firebase felhőszolgáltatásban tároljuk. További információért olvassa el [Adatvédelmi nyilatkozatunkat](PRIVACY_POLICY.md).
+Adatait biztonságosan, Firebase felhőszolgáltatásban tároljuk. További információért olvassa el [Adatvédelmi nyilatkozatunkat](privacy.md).
 
 ---
 
