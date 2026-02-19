@@ -18,12 +18,12 @@ Az „aprópénz" mobilalkalmazás („Alkalmazás") használatával Ön elfogad
 
 Az Alkalmazás az alábbi személyes adatokat gyűjtheti:
 
-| Adat | Leírás | Kötelező |
-|------|--------|----------|
-| Név | Megjelenítendő név | Igen |
-| E-mail cím | Bejelentkezéshez és kapcsolattartáshoz | Igen |
-| Profilkép | Közösségi bejelentkezésből származó kép | Nem |
-| Telefonszám | Közösségi bejelentkezésből származó adat | Nem |
+| Adat        | Leírás                                   | Kötelező |
+| ----------- | ---------------------------------------- | -------- |
+| Név         | Megjelenítendő név                       | Igen     |
+| E-mail cím  | Bejelentkezéshez és kapcsolattartáshoz   | Igen     |
+| Profilkép   | Közösségi bejelentkezésből származó kép  | Nem      |
+| Telefonszám | Közösségi bejelentkezésből származó adat | Nem      |
 
 ### 2.2 Pénzügyi adatok
 
@@ -44,12 +44,12 @@ Az Alkalmazás a következő pénzügyi adatokat tárolja:
 
 ## 3. Adatkezelés célja és jogalapja
 
-| Cél | Jogalap (GDPR) |
-|-----|----------------|
+| Cél                                       | Jogalap (GDPR)                        |
+| ----------------------------------------- | ------------------------------------- |
 | Felhasználói fiók létrehozása és kezelése | Szerződés teljesítése (6. cikk (1) b) |
 | Pénzügyi adatok tárolása és megjelenítése | Szerződés teljesítése (6. cikk (1) b) |
-| Előfizetések kezelése | Szerződés teljesítése (6. cikk (1) b) |
-| Alkalmazás fejlesztése | Jogos érdek (6. cikk (1) f) |
+| Előfizetések kezelése                     | Szerződés teljesítése (6. cikk (1) b) |
+| Alkalmazás fejlesztése                    | Jogos érdek (6. cikk (1) f)           |
 
 ---
 
@@ -81,7 +81,14 @@ Az Alkalmazás az alábbi harmadik fél szolgáltatásokat használja:
 - **Átadott adatok:** Alapvető profiladatok
 - **Adatvédelmi tájékoztató:** https://www.facebook.com/privacy/policy
 
-### 4.5 Alkalmazás-áruházak (Apple App Store / Google Play)
+### 4.5 Sentry
+
+- **Cél:** Hibakövetés és alkalmazás-stabilitás figyelése
+- **Átadott adatok:** Felhasználói azonosító (anonim felhasználók esetén) vagy e-mail cím (regisztrált felhasználók esetén), hibajelentések, alkalmazás állapotadatok
+- **Adattárolás helye:** Európai Unió (Németország)
+- **Adatvédelmi tájékoztató:** https://sentry.io/privacy/
+
+### 4.6 Alkalmazás-áruházak (Apple App Store / Google Play)
 
 - **Cél:** Előfizetések fizetésének feldolgozása
 - **Megjegyzés:** Az Alkalmazás közvetlenül nem fér hozzá bankkártya- vagy fizetési adatokhoz
@@ -108,14 +115,14 @@ Az Alkalmazás az alábbi harmadik fél szolgáltatásokat használja:
 
 A GDPR alapján Önnek joga van:
 
-| Jog | Leírás |
-|-----|--------|
-| **Hozzáférés** | Tájékoztatást kérhet a tárolt adatairól |
-| **Helyesbítés** | Kérheti pontatlan adatai javítását |
-| **Törlés** | Kérheti adatai azonnali törlését |
+| Jog                   | Leírás                                                       |
+| --------------------- | ------------------------------------------------------------ |
+| **Hozzáférés**        | Tájékoztatást kérhet a tárolt adatairól                      |
+| **Helyesbítés**       | Kérheti pontatlan adatai javítását                           |
+| **Törlés**            | Kérheti adatai azonnali törlését                             |
 | **Adathordozhatóság** | Kérheti adatai géppel olvasható formátumban történő kiadását |
-| **Tiltakozás** | Tiltakozhat adatai kezelése ellen |
-| **Korlátozás** | Kérheti az adatkezelés korlátozását |
+| **Tiltakozás**        | Tiltakozhat adatai kezelése ellen                            |
+| **Korlátozás**        | Kérheti az adatkezelés korlátozását                          |
 
 Jogai gyakorlásához írjon az **apropenzapp@gmail.com** címre.
 
