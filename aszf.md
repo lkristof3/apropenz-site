@@ -16,6 +16,7 @@ Jelen Általános Szerződési Feltételek (a továbbiakban: ÁSZF) az aprópén
 ### 1.3. Szolgáltatás leírása
 
 Az aprópénz egy személyes pénzügyi nyilvántartó alkalmazás, amely lehetővé teszi a felhasználók számára:
+
 - Kiadások és bevételek rögzítését
 - Egyéni kategóriák létrehozását
 - Tranzakciós sablonok használatát
@@ -36,12 +37,14 @@ A 18 év alatti felhasználók esetében a szülő vagy törvényes gyám felel�
 ### 3.1. Fióktípusok
 
 Az Alkalmazás az alábbi fióktípusokat támogatja:
+
 - **Anonim fiók:** Regisztráció nélküli kipróbálási lehetőség
 - **Regisztrált fiók:** Google vagy Facebook fiókkal történő bejelentkezés
 
 ### 3.2. Fiók biztonsága
 
 A felhasználó felelős:
+
 - A bejelentkezési adatainak biztonságos kezeléséért
 - A fiókjához kapcsolódó tevékenységekért
 - Az illetéktelen hozzáférés azonnali jelentéséért
@@ -55,6 +58,7 @@ Az anonim fiók bármikor átalakítható regisztrált fiókká. Az átalakítá
 ### 4.1. Ingyenes csomag
 
 Az Alkalmazás ingyenes verziója az alábbi korlátozásokkal érhető el:
+
 - Maximum 3 sablon
 - Maximum 3 kategória típusonként (bevétel/kiadás)
 - Csak az aktuális időszak statisztikái
@@ -62,6 +66,7 @@ Az Alkalmazás ingyenes verziója az alábbi korlátozásokkal érhető el:
 ### 4.2. Pro előfizetés
 
 Az aprópénz Pro előfizetés az alábbi előnyöket biztosítja:
+
 - Korlátlan sablonok
 - Korlátlan kategóriák
 - Teljes statisztikai hozzáférés (előzmények és éves kimutatások)
@@ -76,6 +81,7 @@ Az aprópénz Pro előfizetés az alábbi előnyöket biztosítja:
 ### 4.4. Fizetési feltételek
 
 A fizetések az Apple App Store vagy a Google Play Áruház fizetési rendszerén keresztül történnek. A vásárlásokra az adott áruház feltételei vonatkoznak:
+
 - **Apple App Store:** https://www.apple.com/legal/internet-services/itunes/
 - **Google Play:** https://play.google.com/intl/hu_hu/about/play-terms/
 
@@ -92,6 +98,7 @@ A visszatérítésekre az Apple App Store, illetve a Google Play Áruház vissza
 ### 5.1. Helyes használat
 
 A felhasználó vállalja, hogy:
+
 - Pontos és valós adatokat rögzít
 - Az Alkalmazást kizárólag személyes pénzügyi nyilvántartás céljából használja
 - Betartja a hatályos jogszabályokat
@@ -99,6 +106,7 @@ A felhasználó vállalja, hogy:
 ### 5.2. Tiltott tevékenységek
 
 Tilos az Alkalmazást:
+
 - Jogellenes célokra használni
 - Visszafejteni, dekompilálni vagy módosítani
 - Automatizált eszközökkel (botok, scriptek) használni
@@ -141,6 +149,7 @@ A Szolgáltató nem felel a felhasználó által hibásan rögzített adatokért
 ### 8.4. Felelősség mértéke
 
 A Szolgáltató felelőssége a hatályos jogszabályok által megengedett legteljesebb mértékig kizárt. A Szolgáltató nem felel:
+
 - Közvetett, következményi vagy járulékos károkért
 - Elmaradt haszonért vagy adatvesztésért
 - Harmadik fél cselekedeteiből eredő károkért
@@ -169,6 +178,7 @@ A felhasználó bármikor törölheti fiókját az Alkalmazáson belül vagy a a
 ### 10.2. Szolgáltatói felmondás
 
 A Szolgáltató jogosult a felhasználó fiókjának felfüggesztésére vagy törlésére, ha:
+
 - A felhasználó megsérti a jelen ÁSZF-et
 - A felhasználó jogellenes tevékenységet folytat
 - A felhasználó fiókja biztonsági kockázatot jelent
@@ -176,6 +186,7 @@ A Szolgáltató jogosult a felhasználó fiókjának felfüggesztésére vagy t�
 ### 10.3. Következmények
 
 A fiók törlését követően:
+
 - Az aktív előfizetések nem kerülnek automatikusan lemondásra (az áruházban kell lemondani)
 - A tárolt adatok véglegesen törlésre kerülnek
 - Az Alkalmazás használatának joga megszűnik
@@ -202,6 +213,7 @@ Az Alkalmazás az alábbi harmadik fél szolgáltatásokat használja:
 - **RevenueCat:** Előfizetés-kezelés
 - **Google Sign-In:** Bejelentkezés Google fiókkal
 - **Facebook Login:** Bejelentkezés Facebook fiókkal
+- **Sentry:** Hibakövetés és alkalmazás-stabilitás figyelése
 
 Ezen szolgáltatások saját felhasználási feltételekkel és adatvédelmi szabályzattal rendelkeznek.
 
@@ -218,6 +230,7 @@ Vitás kérdések esetén a felek elsődlegesen békés úton, egyeztetés keret
 ### 13.3. Kapcsolatfelvétel
 
 Kérdések, észrevételek vagy panaszok esetén az alábbi elérhetőségen vagyunk elérhetők:
+
 - **E-mail:** apropenzapp@gmail.com
 
 ## 14. Vegyes rendelkezések
