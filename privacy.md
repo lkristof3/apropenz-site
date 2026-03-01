@@ -81,14 +81,20 @@ Az Alkalmazás az alábbi harmadik fél szolgáltatásokat használja:
 - **Átadott adatok:** Alapvető profiladatok
 - **Adatvédelmi tájékoztató:** https://www.facebook.com/privacy/policy
 
-### 4.5 Sentry
+### 4.5 Bejelentkezés Apple-fiókkal
+
+- **Cél:** Hitelesítés Apple-fiókkal
+- **Átadott adatok:** Alapvető profiladatok (név, e-mail)
+- **Adatvédelmi tájékoztató:** https://www.apple.com/legal/privacy/
+
+### 4.6 Sentry
 
 - **Cél:** Hibakövetés és alkalmazás-stabilitás figyelése
 - **Átadott adatok:** Felhasználói azonosító (anonim felhasználók esetén) vagy e-mail cím (regisztrált felhasználók esetén), hibajelentések, alkalmazás állapotadatok
 - **Adattárolás helye:** Európai Unió (Németország)
 - **Adatvédelmi tájékoztató:** https://sentry.io/privacy/
 
-### 4.6 Alkalmazás-áruházak (Apple App Store / Google Play)
+### 4.7 Alkalmazás-áruházak (Apple App Store / Google Play)
 
 - **Cél:** Előfizetések fizetésének feldolgozása
 - **Megjegyzés:** Az Alkalmazás közvetlenül nem fér hozzá bankkártya- vagy fizetési adatokhoz
