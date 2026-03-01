@@ -39,7 +39,7 @@ A 18 év alatti felhasználók esetében a szülő vagy törvényes gyám felel�
 Az Alkalmazás az alábbi fióktípusokat támogatja:
 
 - **Anonim fiók:** Regisztráció nélküli kipróbálási lehetőség
-- **Regisztrált fiók:** Google vagy Facebook fiókkal történő bejelentkezés
+- **Regisztrált fiók:** Google, Facebook vagy Apple fiókkal történő bejelentkezés
 
 ### 3.2. Fiók biztonsága
 
@@ -59,24 +59,22 @@ Az anonim fiók bármikor átalakítható regisztrált fiókká. Az átalakítá
 
 Az Alkalmazás ingyenes verziója az alábbi korlátozásokkal érhető el:
 
-- Maximum 3 sablon
-- Maximum 3 kategória típusonként (bevétel/kiadás)
+- Maximum 2 sablon
+- Maximum 6 kategória típusonként (bevétel/kiadás)
 - Csak az aktuális időszak statisztikái
 
 ### 4.2. Pro előfizetés
 
 Az aprópénz Pro előfizetés az alábbi előnyöket biztosítja:
 
-- Korlátlan sablonok
+- Korlátlan sablonok és automatikus ismétlődés
 - Korlátlan kategóriák
 - Teljes statisztikai hozzáférés (előzmények és éves kimutatások)
 
 ### 4.3. Előfizetési típusok
 
-- Heti előfizetés
 - Havi előfizetés
 - Éves előfizetés
-- Örökös (egyszeri vásárlás)
 
 ### 4.4. Fizetési feltételek
 
@@ -213,6 +211,7 @@ Az Alkalmazás az alábbi harmadik fél szolgáltatásokat használja:
 - **RevenueCat:** Előfizetés-kezelés
 - **Google Sign-In:** Bejelentkezés Google fiókkal
 - **Facebook Login:** Bejelentkezés Facebook fiókkal
+- **Apple Sign-In:** Bejelentkezés Apple fiókkal
 - **Sentry:** Hibakövetés és alkalmazás-stabilitás figyelése
 
 Ezen szolgáltatások saját felhasználási feltételekkel és adatvédelmi szabályzattal rendelkeznek.
