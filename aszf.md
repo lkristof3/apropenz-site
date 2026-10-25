@@ -1,257 +1,106 @@
 # Általános Szerződési Feltételek (ÁSZF)
 
-**Hatályos:** 2026. február 6.
+**Frissítve:** 2026. október 24.
 
-## 1. Bevezető rendelkezések
+## 1. Szolgáltatás és kapcsolat
 
-### 1.1. Szolgáltató adatai
+Az **aprópénz** személyes és közös háztartási pénzügyi nyilvántartó mobilalkalmazás. Kapcsolat és panaszkezelés: [apropenzapp@gmail.com](mailto:apropenzapp@gmail.com).
 
-- **Alkalmazás neve:** aprópénz
-- **Kapcsolattartási e-mail:** apropenzapp@gmail.com
+Az alkalmazásban kiadásokat és bevételeket, kategóriákat és leírásaikat, sablonokat, ismétlődő tételeket és költségkereteket kezelhet, előzményeket és statisztikákat tekinthet meg. Szöveges és hangos bevitel, valamint támogatott környezetben widgetes gyorsrögzítés is rendelkezésre állhat. A funkciók elérhetősége platformtól, alkalmazásverziótól, hálózattól és hozzáférési jogosultságtól függhet.
 
-### 1.2. Az ÁSZF hatálya
+Az alkalmazás nyilvántartási eszköz; nem banki, fizetési, befektetési vagy adótanácsadási szolgáltatás. A rögzített adatok nem helyettesítik a hivatalos pénzügyi bizonylatokat.
 
-Jelen Általános Szerződési Feltételek (a továbbiakban: ÁSZF) az aprópénz mobilalkalmazás (a továbbiakban: Alkalmazás) használatára vonatkoznak. Az Alkalmazás letöltésével, telepítésével vagy használatával Ön elfogadja a jelen ÁSZF-ben foglalt feltételeket.
+## 2. Fiók és használati jogosultság
 
-### 1.3. Szolgáltatás leírása
+Az alkalmazást nem 13 év alatti gyermekeknek szánjuk. Kiskorúként a vonatkozó jogszabályok szerint szükséges szülői vagy törvényes képviselői közreműködéssel használhatja, illetve vásárolhat előfizetést.
 
-Az aprópénz egy személyes pénzügyi nyilvántartó alkalmazás, amely lehetővé teszi a felhasználók számára:
+Vendégfiókkal, Google-fiókkal, illetve támogatott Apple-környezetben Apple-fiókkal lehet belépni. A vendégfiókhoz is tartozik szerveroldali azonosító és adattárolás; ez nem jelent teljes anonimitást. A megjelenített fiók-összekapcsolási lehetőséggel a vendégfiókot bejelentkezési fiókhoz kapcsolhatja. Másik, már létező fiókba történő belépés nem jelent automatikus adatösszevonást.
 
-- Kiadások és bevételek rögzítését
-- Egyéni kategóriák létrehozását
-- Tranzakciós sablonok használatát
-- Pénzügyi statisztikák megtekintését
+Óvja bejelentkezési adatait és készülékét. A be nem kapcsolt vendégfiókhoz való hozzáférés a helyi bejelentkezési állapot elvesztésekor nem feltétlenül állítható helyre. Jogosulatlan hozzáférés gyanúját jelezze az ügyfélszolgálatnak.
 
-## 2. Felhasználói jogosultság
+## 3. Próbaidő és előfizetés
 
-### 2.1. Korhatár
+### 3.1. Hétnapos próbaidő
 
-Az Alkalmazás használata 13 éves kor felett engedélyezett. Az Alkalmazás letöltésével és használatával Ön kijelenti, hogy betöltötte a 13. életévét. 13 év alatti személyek nem használhatják az Alkalmazást.
+A kezdeti beállítások befejezésekor egyszeri **7 napos alkalmazáson belüli próbaidő** indul. Ez alatt az előfizetéshez kötött funkciók kipróbálhatók, a technikai és visszaélés-megelőzési korlátok mellett.
 
-### 2.2. Felelősség
+Ez a próbaidő önmagában nem áruházi előfizetés, nem igényel vásárlást, és lejáratakor nem indít automatikus terhelést. Áruházi vásárlás csak az Ön által jóváhagyott vásárlási folyamatban történik. Ha az áruház külön bevezető ajánlatot jelenít meg, annak feltételeit a vásárlási képernyő tartalmazza.
 
-A 18 év alatti felhasználók esetében a szülő vagy törvényes gyám felelős az Alkalmazás használatának felügyeletéért és a jelen ÁSZF betartásáért.
+### 3.2. Lejárat utáni hozzáférés
 
-## 3. Fiókkezelés
+Aktív próbaidő vagy előfizetés nélkül a korábbi tranzakciók előzményei továbbra is olvashatók. Új adatok rögzítése és módosítása, valamint az előfizetéshez kötött eszközök, például a költségkeretek, sablonok, AI-feldolgozás és a háztartás egyes kezelési műveletei korlátozottak. A fióktörlés és a támogatás elérése nem igényel aktív előfizetést.
 
-### 3.1. Fióktípusok
+A lejárat nem törli automatikusan a korábbi nyilvántartást. A korábbi, kategória- és sablonszámhoz kötött ingyenes csomag leírása nem a jelenlegi hozzáférési modellt tükrözi.
 
-Az Alkalmazás az alábbi fióktípusokat támogatja:
+### 3.3. Havi és éves előfizetés
 
-- **Anonim fiók:** Regisztráció nélküli kipróbálási lehetőség
-- **Regisztrált fiók:** Google, Facebook vagy Apple fiókkal történő bejelentkezés
+A havi és éves aprópénz-előfizetés ugyanazt a Pro-hozzáférést biztosítja, eltérő számlázási időszakkal. Az aktuális ár, pénznem, számlázási időszak és esetleges ajánlat a vásárlás előtt az alkalmazásban és az áruház jóváhagyó felületén látható. A vásárlás előtt ezeket ellenőrizze.
 
-### 3.2. Fiók biztonsága
+Az előfizetés nem jelent korlátlan AI-kapacitást vagy garantált folyamatos rendelkezésre állást. A hangos és szöveges feldolgozást használati, méret- és gyakorisági korlátok védik; elérésükkor az alkalmazás visszajelzést ad.
 
-A felhasználó felelős:
+### 3.4. Fizetés, megújítás és lemondás
 
-- A bejelentkezési adatainak biztonságos kezeléséért
-- A fiókjához kapcsolódó tevékenységekért
-- Az illetéktelen hozzáférés azonnali jelentéséért
+A fizetést az Apple App Store vagy a Google Play kezeli. Az előfizetés a vásárláskor közölt feltételek szerint automatikusan megújul, amíg a megújítást az áruháznál le nem mondja. A következő terhelés elkerüléséhez az áruház által jelzett határidő előtt mondja le. A lemondás általában az aktuális kifizetett időszak végéig nem szünteti meg a hozzáférést; a konkrét állapotot az áruház mutatja.
 
-### 3.3. Anonim fiók átalakítása
+**A kijelentkezés, a fióktörlés és az alkalmazás eltávolítása nem mondja le az előfizetést.**
 
-Az anonim fiók bármikor átalakítható regisztrált fiókká. Az átalakítás során a korábban rögzített adatok megőrzésre kerülnek.
+- [Apple előfizetések és számlázás](https://support.apple.com/billing)
+- [Google Play előfizetés lemondása](https://support.google.com/googleplay/answer/7018481?hl=hu)
+- [Apple médiaszolgáltatási feltételek](https://www.apple.com/legal/internet-services/itunes/)
+- [Google Play feltételek](https://play.google.com/intl/hu_hu/about/play-terms/)
 
-## 4. Előfizetések és fizetés
+Az alkalmazás Fiók és beállítások oldalán elérhető előfizetés-kezelés és vásárlás-visszaállítás segítheti az ügyintézést. A visszaállításhoz a megfelelő áruházi és alkalmazásfiók szükséges. A jogosultság ellenőrzéséhez hálózati kapcsolat és szerveroldali visszaigazolás kellhet.
 
-### 4.1. Ingyenes csomag
+### 3.5. Visszatérítés és fogyasztói jogok
 
-Az Alkalmazás ingyenes verziója az alábbi korlátozásokkal érhető el:
+Vásárlási probléma esetén az áruház visszatérítési felületén vagy az ügyfélszolgálatunknál kérhet segítséget. A jogosultságot az adott vásárlás, az áruház szabályai és az alkalmazandó jog határozza meg. A digitális szolgáltatásokra vonatkozó elállási, felmondási és hibás teljesítési jogokat ez az ÁSZF nem zárja ki. Az azonnali teljesítéshez kapcsolódó nyilatkozatok és azok következményei a vásárláskor irányadó tájékoztatás szerint értékelendők; a letöltés önmagában nem általános lemondás a fogyasztói jogokról.
 
-- Maximum 2 sablon
-- Maximum 6 kategória típusonként (bevétel/kiadás)
-- Csak az aktuális időszak statisztikái
+## 4. Adatbevitel, AI és automatikus műveletek
 
-### 4.2. Pro előfizetés
+A kézi bevitel mellett a szöveges és hangos feldolgozás kiadási adatokat javasolhat. Az AI tévesen ismerhet fel összeget, dátumot, leírást vagy kategóriát. A normál bevitelnél a mentés előtt ellenőrizze és javítsa a mezőket; a sablon kiválasztása önmagában nem jelent könyvelést.
 
-Az aprópénz Pro előfizetés az alábbi előnyöket biztosítja:
+A widgetből indított gyorsrögzítés az értelmezhető és ellenőrzött kiadást automatikusan elmentheti. Hiányos, bizonytalan vagy elutasított feldolgozásnál a tétel ellenőrzésre várhat. A szerver által már átvett feldolgozás az alkalmazás bezárása után is folytatódhat. Ellenőrizze az eredményt az alkalmazásban.
 
-- Korlátlan sablonok és automatikus ismétlődés
-- Korlátlan kategóriák
-- Teljes statisztikai hozzáférés (előzmények és éves kimutatások)
+A helyreállítható gyorsrögzítések helyi piszkozatként is megmaradhatnak. A normál szerkesztő bezárásakor nem minden el nem mentett adat állítható helyre. A piszkozat nem feltétlenül mentett tranzakció. Sikertelen vagy még folyamatban lévő rögzítésnél a tényleges állapotot ellenőrizze az előzményekben.
 
-### 4.3. Előfizetési típusok
+Az aktív ismétlődő sablonok a beállított ütemezés és hozzáférési feltételek szerint automatikusan hozhatnak létre tételeket. A feldolgozás ütemezetten történik, nem garantáltan az Ön készülékén jelzett percben.
 
-- Havi előfizetés
-- Éves előfizetés
+Az AI-feldolgozás adatátadását, a hangfelvétel kezelését és a helyi tárolást az [Adatkezelési tájékoztató](privacy) ismerteti. A kézi űrlap mikrofonengedély nélkül is használható.
 
-### 4.4. Fizetési feltételek
+## 5. Közös háztartás
 
-A fizetések az Apple App Store vagy a Google Play Áruház fizetési rendszerén keresztül történnek. A vásárlásokra az adott áruház feltételei vonatkoznak:
+A háztartási funkcióval közös nézetben kezelhet pénzügyi adatokat. A közös nézethez rendelt tételekhez más háztartástagok is hozzáférhetnek az alkalmazás jogosultságai szerint. Meghívás előtt ellenőrizze a címzett e-mail-címét, rögzítés előtt pedig a kiválasztott nézetet.
 
-- **Apple App Store:** https://www.apple.com/legal/internet-services/itunes/
-- **Google Play:** https://play.google.com/intl/hu_hu/about/play-terms/
+A háztartás elhagyása, tagság megszüntetése vagy a háztartás törlése nem azonos az összes korábban közösen kezelt pénzügyi rekord törlésével. Saját fiókjának törlése más tagok fiókját és saját rekordjait nem törli. A tulajdonos fiókjának törlése megszünteti az általa tulajdonolt háztartást és a tagsági kapcsolatokat.
 
-### 4.5. Automatikus megújítás
+## 6. Rendeltetésszerű használat és szellemi tulajdon
 
-Az előfizetések automatikusan megújulnak, kivéve, ha a megújítási időszak lejárta előtt legalább 24 órával lemondásra kerülnek. Az előfizetés lemondása az adott áruház beállításaiban lehetséges.
+Csak olyan adatot, szöveget és hangfelvételt adjon meg, amelynek kezelésére jogosult. Tilos a jogosulatlan hozzáférés, más fiókjának használata engedély nélkül, a biztonsági és hozzáférési korlátok megkerülése, a szolgáltatás szándékos túlterhelése és a jogellenes tartalom feltöltése.
 
-### 4.6. Visszatérítés
+Az alkalmazás és megjelenésének jogai a jogosultaknál maradnak, a harmadik féltől származó és nyílt forrású elemek saját licenceikkel együtt. Az alkalmazás használatához a szolgáltatás céljának megfelelő, nem kizárólagos használati jogot kap. Ez nem korlátozza a jogszabály által kötelezően megengedett felhasználási lehetőségeket.
 
-A visszatérítésekre az Apple App Store, illetve a Google Play Áruház visszatérítési szabályzata vonatkozik. Visszatérítési igénnyel közvetlenül az adott áruházhoz kell fordulni.
+Az Ön adatainak kezelésére a szolgáltatás nyújtásához szükséges körben kerül sor. Személyes adataihoz kapcsolódó jogait az adatkezelési tájékoztató szerint gyakorolhatja, beleértve az alkalmazandó adathordozhatósági és törlési jogot.
 
-## 5. Felhasználói kötelezettségek
+## 7. Működés, hibák és felelősség
 
-### 5.1. Helyes használat
+A szolgáltatás használatához megfelelő eszköz, kompatibilis alkalmazásverzió és egyes műveleteknél internetkapcsolat szükséges. Karbantartás, hálózati hiba vagy külső szolgáltatás kiesése átmeneti korlátozást okozhat. Tervezett jelentős változásról, ahol szükséges, előzetes tájékoztatást adunk.
 
-A felhasználó vállalja, hogy:
+Hiba esetén jelezze az érintett műveletet, az időpontot, a platformot és az alkalmazásverziót. Jelszót vagy teljes fizetési adatot ne küldjön; képernyőképen takarja ki a szükségtelen személyes adatokat.
 
-- Pontos és valós adatokat rögzít
-- Az Alkalmazást kizárólag személyes pénzügyi nyilvántartás céljából használja
-- Betartja a hatályos jogszabályokat
+A felhasználó felel az általa megadott adatok és jóváhagyott műveletek ellenőrzéséért. Ez nem mentesíti a szolgáltatót a saját hibás teljesítéséért fennálló felelőssége alól. Az ÁSZF nem zárja ki vagy korlátozza a kötelező jogszabályból eredő fogyasztói, szavatossági, kártérítési vagy egyéb jogokat, illetve olyan felelősséget, amely jogszerűen nem zárható ki.
 
-### 5.2. Tiltott tevékenységek
+## 8. Fióktörlés és szolgáltatáskorlátozás
 
-Tilos az Alkalmazást:
+A fióktörlést a **Továbbiak → Fiók és beállítások → Fiók törlése** menüpontban, vagy az ügyfélszolgálati e-mail-címen kérheti. A törlés következményeit és a szolgáltatói, helyi vagy jogi megőrzés kivételeit az [Adatkezelési tájékoztató](privacy) tartalmazza. A törölt fiók és eltávolított nyilvántartás nem állítható vissza. Az előfizetés megújítását külön mondja le az áruházban.
 
-- Jogellenes célokra használni
-- Visszafejteni, dekompilálni vagy módosítani
-- Automatizált eszközökkel (botok, scriptek) használni
-- Harmadik fél hozzáférési adataival használni
-- A szolgáltatás működésének megzavarására használni
-- Kereskedelmi célokra felhasználni engedély nélkül
+Jogellenes használat, súlyos szerződésszegés vagy biztonsági kockázat esetén a szolgáltatás szükséges és arányos korlátozására kerülhet sor, az alkalmazandó jog és a fogyasztói jogok figyelembevételével. Panaszát az ügyfélszolgálaton jelezheti.
 
-## 6. Szellemi tulajdon
+## 9. Adatvédelem, változások és jogviták
 
-### 6.1. Alkalmazás tulajdonjoga
+Az adatkezelésről külön [Adatkezelési tájékoztató](privacy) rendelkezik. Annak megismerése nem helyettesít egy szükséges külön hozzájárulást.
 
-Az Alkalmazás, annak dizájnja, forráskódja, logója és minden kapcsolódó szellemi tulajdon a Szolgáltató kizárólagos tulajdonát képezi. Az Alkalmazás használata nem ruház át semmilyen tulajdonjogot a felhasználóra.
+A szolgáltatás vagy az ÁSZF lényeges változásáról a jogszabály szerinti tartalommal és határidőben tájékoztatjuk. A változtatás nem vonhat el kötelező fogyasztói jogot; ahol külön elfogadás szükséges, a további használat önmagában nem helyettesíti azt.
 
-### 6.2. Felhasználói adatok tulajdonjoga
+Az ÁSZF magyar nyelvű. Magyar jog alkalmazása esetén is fennmaradnak a fogyasztó szokásos tartózkodási helye szerint irányadó, eltérést nem engedő védelmi szabályok és a jogszabály szerinti bírósághoz fordulás lehetőségei. Vitás ügyben először az [apropenzapp@gmail.com](mailto:apropenzapp@gmail.com) címre írhat. A fogyasztó az illetékes békéltető testülethez és bírósághoz is fordulhat.
 
-A felhasználó által rögzített pénzügyi adatok (kiadások, bevételek, kategóriák, sablonok) a felhasználó tulajdonát képezik. A felhasználó bármikor kérheti adatainak exportálását vagy törlését.
-
-### 6.3. Licenc
-
-A Szolgáltató korlátozott, nem kizárólagos, nem átruházható, visszavonható licencet biztosít a felhasználónak az Alkalmazás személyes, nem kereskedelmi célú használatára.
-
-## 7. Adatvédelem
-
-Az Alkalmazás adatkezelési gyakorlatát az Adatvédelmi Tájékoztató tartalmazza, amely elérhető az Alkalmazásban és a kapcsolódó weboldalakon. Az Alkalmazás használatával Ön elfogadja az Adatvédelmi Tájékoztatóban foglaltakat is.
-
-## 8. Felelősségkorlátozás
-
-### 8.1. Szolgáltatás jellege
-
-Az Alkalmazás "adott állapotban" ("as is") és "rendelkezésre állás szerint" ("as available") kerül biztosításra. A Szolgáltató nem vállal garanciát a szolgáltatás megszakításmentes vagy hibamentes működésére.
-
-### 8.2. Pénzügyi tanácsadás kizárása
-
-**Az Alkalmazás kizárólag nyilvántartási eszköz, nem minősül pénzügyi, adózási vagy befektetési tanácsadásnak.** A felhasználó pénzügyi döntéseiért kizárólag saját maga felel. Pénzügyi döntések előtt javasolt szakértővel konzultálni.
-
-### 8.3. Adatpontosság
-
-A Szolgáltató nem felel a felhasználó által hibásan rögzített adatokért, illetve az ebből eredő esetleges károkért.
-
-### 8.4. Felelősség mértéke
-
-A Szolgáltató felelőssége a hatályos jogszabályok által megengedett legteljesebb mértékig kizárt. A Szolgáltató nem felel:
-
-- Közvetett, következményi vagy járulékos károkért
-- Elmaradt haszonért vagy adatvesztésért
-- Harmadik fél cselekedeteiből eredő károkért
-- Vis maior eseményekből eredő károkért
-
-### 8.5. Vis maior
-
-A Szolgáltató nem felel a szolgáltatás olyan meghibásodásáért vagy szüneteltetéséért, amely a Szolgáltató érdekkörén kívül eső okból következik be (természeti katasztrófa, háború, sztrájk, hatósági intézkedés, internetszolgáltatás kimaradása stb.).
-
-## 9. Szolgáltatás elérhetősége
-
-### 9.1. Karbantartás
-
-A Szolgáltató fenntartja a jogot az Alkalmazás karbantartására, frissítésére vagy módosítására, amely időszakos elérhetetlenséget okozhat. A tervezett karbantartásokról lehetőség szerint előzetes értesítést küldünk.
-
-### 9.2. Szolgáltatás módosítása
-
-A Szolgáltató jogosult az Alkalmazás funkcióit bármikor módosítani, bővíteni vagy megszüntetni.
-
-## 10. Felmondás és fiók törlése
-
-### 10.1. Felhasználói felmondás
-
-A felhasználó bármikor törölheti fiókját az Alkalmazáson belül vagy a apropenzapp@gmail.com e-mail címen keresztül. A fiók törlésével minden tárolt adat véglegesen törlésre kerül.
-
-### 10.2. Szolgáltatói felmondás
-
-A Szolgáltató jogosult a felhasználó fiókjának felfüggesztésére vagy törlésére, ha:
-
-- A felhasználó megsérti a jelen ÁSZF-et
-- A felhasználó jogellenes tevékenységet folytat
-- A felhasználó fiókja biztonsági kockázatot jelent
-
-### 10.3. Következmények
-
-A fiók törlését követően:
-
-- Az aktív előfizetések nem kerülnek automatikusan lemondásra (az áruházban kell lemondani)
-- A tárolt adatok véglegesen törlésre kerülnek
-- Az Alkalmazás használatának joga megszűnik
-
-## 11. Az ÁSZF módosítása
-
-### 11.1. Módosítási jog
-
-A Szolgáltató fenntartja a jogot a jelen ÁSZF bármikori módosítására. A módosított ÁSZF az Alkalmazásban történő közzététellel lép hatályba.
-
-### 11.2. Értesítés
-
-Lényeges módosítások esetén a felhasználók értesítést kapnak az Alkalmazáson keresztül vagy e-mailben (amennyiben megadták e-mail címüket).
-
-### 11.3. Elfogadás
-
-A módosított ÁSZF hatálybalépését követő Alkalmazás-használat a módosítások elfogadásának minősül. Ha a felhasználó nem ért egyet a módosításokkal, jogosult fiókja törlésére.
-
-## 12. Harmadik fél szolgáltatások
-
-Az Alkalmazás az alábbi harmadik fél szolgáltatásokat használja:
-
-- **Firebase (Google):** Hitelesítés és adattárolás
-- **RevenueCat:** Előfizetés-kezelés
-- **Google Sign-In:** Bejelentkezés Google fiókkal
-- **Facebook Login:** Bejelentkezés Facebook fiókkal
-- **Apple Sign-In:** Bejelentkezés Apple fiókkal
-- **Sentry:** Hibakövetés és alkalmazás-stabilitás figyelése
-
-Ezen szolgáltatások saját felhasználási feltételekkel és adatvédelmi szabályzattal rendelkeznek.
-
-## 13. Irányadó jog és vitarendezés
-
-### 13.1. Irányadó jog
-
-A jelen ÁSZF-re és az Alkalmazás használatára Magyarország jogszabályai az irányadók.
-
-### 13.2. Vitarendezés
-
-Vitás kérdések esetén a felek elsődlegesen békés úton, egyeztetés keretében törekszenek a megoldásra. Amennyiben ez nem vezet eredményre, a jogviták elbírálására a magyar bíróságok rendelkeznek hatáskörrel és illetékességgel.
-
-### 13.3. Kapcsolatfelvétel
-
-Kérdések, észrevételek vagy panaszok esetén az alábbi elérhetőségen vagyunk elérhetők:
-
-- **E-mail:** apropenzapp@gmail.com
-
-## 14. Vegyes rendelkezések
-
-### 14.1. Részleges érvénytelenség
-
-Amennyiben a jelen ÁSZF valamely rendelkezése érvénytelennek vagy végrehajthatatlannak bizonyul, az nem érinti a többi rendelkezés érvényességét.
-
-### 14.2. Joglemondás
-
-A Szolgáltató valamely jogának vagy rendelkezésének nem érvényesítése nem jelenti az adott jogról vagy rendelkezésről való lemondást.
-
-### 14.3. Teljes megállapodás
-
-A jelen ÁSZF és az Adatvédelmi Tájékoztató együttesen alkotják a felhasználó és a Szolgáltató közötti teljes megállapodást az Alkalmazás használatával kapcsolatban.
-
-### 14.4. Nyelv
-
-A jelen ÁSZF magyar nyelven készült. Amennyiben más nyelvű fordítás is készül, a magyar nyelvű változat az irányadó.
-
----
-
-**Utolsó frissítés:** 2026. február 6.
-
-Ha kérdése van a jelen ÁSZF-fel kapcsolatban, kérjük, lépjen velünk kapcsolatba: apropenzapp@gmail.com
+[Adatkezelési tájékoztató](privacy) · [Támogatás és fióktörlés](support)
