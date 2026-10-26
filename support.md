@@ -1,6 +1,6 @@
 # Támogatás és fióktörlés
 
-**Frissítve:** 2026. október 24.
+**Frissítve:** 2026. október 26.
 
 ## Kapcsolat
 
@@ -39,7 +39,9 @@ A törlés a fiókot és a hozzá rendelt, a törlési folyamat által kezelt ad
 
 **A widgetből indított tétel még nincs az előzményekben.** A rögzítés feldolgozásra vagy javításra várhat. Nyissa meg az alkalmazást, ellenőrizze a rögzítés állapotát és az előzményeket. A megfelelően felismert widgettétel automatikusan mentődhet; bizonytalan tételnél egészítse ki a mezőket. A függőben lévő widgetrögzítések helyben megmaradhatnak, de ez nem azonos a tranzakció sikeres mentésével.
 
-**Nem működik a hangbevitel.** Engedélyezze a mikrofont a készülék beállításaiban, ellenőrizze az internetkapcsolatot és az aktív próbaidőt vagy előfizetést. A hangot külső AI-szolgáltatás dolgozza fel. Ha ez nem megfelelő, válassza a kézi bevitelt. Használati korlát vagy szolgáltatási hiba esetén próbálja újra később.
+**Nem működik a hangbevitel.** Engedélyezze a mikrofont a készülék beállításaiban, ellenőrizze az internetkapcsolatot és az aktív próbaidőt vagy előfizetést. A hangot külső AI-szolgáltatás dolgozza fel. Ha ez nem megfelelő, válassza a kézi bevitelt. Egy felvétel legfeljebb kb. 55 másodperces lehet; hosszabb rögzítésnél az alkalmazás automatikusan leállítja és feldolgozza. Használati korlát vagy szolgáltatási hiba esetén próbálja újra később.
+
+**Nem tudom elfogadni a háztartási meghívót.** A meghívót csak olyan fiókkal fogadhatja el, amelynek ellenőrzött e-mail-címe megegyezik a meghívott címmel – például az ezzel a címmel használt Google- vagy Apple-fiókkal. Vendégfiókkal a meghívó nem fogadható el; előbb kapcsolja a vendégfiókot bejelentkezési fiókhoz. Apple „E-mail-cím elrejtése” használatakor a meghívót a továbbító (privaterelay) címre kell küldeni.
 
 **Ki látja a háztartási tételeimet?** A közös nézethez rendelt adatok a háztartás tagjai számára elérhetők. Rögzítés előtt ellenőrizze a nézetet. A tagság megszüntetése nem jelent minden korábbi közös rekordra kiterjedő adattörlést.
 
