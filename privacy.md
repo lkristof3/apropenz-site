@@ -1,14 +1,19 @@
 # Adatkezelési tájékoztató
 
-**Frissítve:** 2026. október 24.
+**Frissítve:** 2026. október 26.
 
 Ez a tájékoztató az **aprópénz** mobilalkalmazásban kezelt személyes adatokról, azok felhasználásáról és az Ön jogairól szól. A tájékoztató megismerése nem jelent általános hozzájárulást minden adatkezeléshez: az egyes célok jogalapját külön ismertetjük.
 
 ## 1. Adatkezelő és kapcsolat
 
-Az alkalmazás üzemeltetője határozza meg az adatkezelés célját és módját. A Firebase az alkalmazás felhasználói adatainak kezelésében általában az üzemeltető adatfeldolgozójaként jár el.
+**Ladányi Kristóf egyéni vállalkozó**
 
-**Adatvédelmi kapcsolat:** [apropenzapp@gmail.com](mailto:apropenzapp@gmail.com).
+- Székhely: 1071 Budapest, Dembinszky utca 46. 4. em. 57.
+- Nyilvántartási szám: 61940565
+- Adószám: 91805917-1-42
+- E-mail: [apropenzapp@gmail.com](mailto:apropenzapp@gmail.com)
+
+Az adatkezelő az alkalmazás üzemeltetője, aki az adatkezelés célját és módját meghatározza. A Firebase az alkalmazás felhasználói adatainak kezelésében általában az üzemeltető adatfeldolgozójaként jár el.
 
 ## 2. Milyen adatokat kezelünk?
 
@@ -16,7 +21,7 @@ Az alkalmazás üzemeltetője határozza meg az adatkezelés célját és módj�
 | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Fiók és profil             | Firebase-felhasználói azonosító, vendégfiók jelzése, létrehozási idő, bevezető lépések teljesítése; Google- vagy Apple-bejelentkezésnél az elérhető név, e-mail-cím és profilkép. Vendégként nem szükséges nevet vagy e-mail-címet megadni.                      |
 | Pénzügyi nyilvántartás     | Ön által megadott kiadások és bevételek, forintösszegek, dátumok, megjegyzések, kategóriák és kategórialeírások, sablonok, ismétlődési beállítások, költségkeretek.                                                                                              |
-| Háztartás                  | Háztartás neve, tulajdonosa, tagsági kapcsolatok, meghívott e-mail-címe, meghívó és meghívási állapot, közös nézethez rendelt pénzügyi adatok.                                                                                                                   |
+| Háztartás                  | Háztartás neve, tulajdonosa, tagsági kapcsolatok, meghívott e-mail-címe, meghívó és meghívási állapot, közös nézethez rendelt pénzügyi adatok. A meghívó elfogadásához a bejelentkezési szolgáltató által ellenőrzött e-mail-cím szükséges.                      |
 | Szöveges bevitel és widget | Beírt szöveg, rögzítési idő, választott személyes vagy közös nézet, felismert és javított mezők, piszkozatok, feldolgozási állapotok és bizonylatok.                                                                                                             |
 | Hangbevitel                | Az Ön által indított hangfelvétel, az abból felismert kiadási adatok és a feldolgozáshoz szükséges kategóriák.                                                                                                                                                   |
 | Hozzáférés és vásárlás     | Próbaidő kezdete és vége, előfizetési jogosultság és lejárat, vásárlási és megújítási információk, áruházi tranzakcióazonosítók. Bankkártyaszámot az alkalmazás nem kap meg.                                                                                     |
@@ -49,7 +54,7 @@ Az OpenAI API adatait alapértelmezés szerint nem használja modelljei tanítá
 
 ### Hangbevitel – OpenAI
 
-A mikrofon csak az Ön által indított felvételhez szükséges. A feldolgozás indításakor a hangfelvétel a Firebase szerverén keresztül az OpenAI átíró API-jához kerül. Az elkészült átiratot egy második OpenAI-kérés értelmezi, a kiadási kategóriák nevével, leírásával és a dátumértelmezéshez szükséges információval együtt. A válaszban felismert összegek, dátumok, kategóriák és megjegyzések jelennek meg.
+A mikrofon csak az Ön által indított felvételhez szükséges. A feldolgozás indításakor a hangfelvétel a Firebase szerverére kerül. A szerver átmeneti fájlban ellenőrzi és egységes formátumra (egycsatornás, 16 kHz) alakítja, majd ezt a változatot küldi az OpenAI átíró API-jának. Az átmeneti szerverfájlt a feldolgozás után – sikeres és sikertelen esetben is – töröljük. Egy felvétel legfeljebb kb. 60 másodperces lehet; az alkalmazás 55 másodperc után automatikusan leállítja és feldolgozza a felvételt. Az elkészült átiratot egy második OpenAI-kérés értelmezi, a kiadási kategóriák nevével, leírásával és a dátumértelmezéshez szükséges információval együtt. A válaszban felismert összegek, dátumok, kategóriák és megjegyzések jelennek meg.
 
 Az alkalmazás backendje nem menti a nyers hangot a pénzügyi adatbázisba. A készüléken átmeneti hangfájl keletkezik, amelyet a jelenlegi megvalósítás nem minden esetben töröl kifejezetten a feldolgozás után. Az átiratot sem mentjük a pénzügyi adatbázisba. Az értelmezési kérés `store: false` beállítással fut. A szolgáltatói adatkezelésre az OpenAI fent hivatkozott feltételei és a tényleges fiókbeállítások irányadók. Az alkalmazás nem végez háttérben folyamatos hangrögzítést.
 
@@ -71,7 +76,7 @@ A Google és az Apple például a saját fiók- és fizetési szolgáltatásukho
 
 ## 6. Tárolás, biztonság és nemzetközi adattovábbítás
 
-A felhőadatokat Firebase-ben tároljuk, a szerverfunkciók konfigurált régiója `europe-west3`. Ez önmagában nem jelenti, hogy valamennyi szolgáltató minden adatot kizárólag az EU-ban kezel. Az AI-, hitelesítési, előfizetési és hibakövetési szolgáltatások az EGT-n kívül, például az Egyesült Államokban is végezhetnek adatkezelést.
+A felhőadatokat Firebase-ben tároljuk: a Firestore-adatbázis az Európai Unión belüli többrégiós (`eur3`) helyen található, a szerverfunkciók régiója `europe-west3` (Frankfurt), a Sentry hibajelentéseit EU-s adatközpontba küldjük. Ez önmagában nem jelenti, hogy valamennyi szolgáltató minden adatot kizárólag az EU-ban kezel. Az AI-, hitelesítési, előfizetési és hibakövetési szolgáltatások az EGT-n kívül, például az Egyesült Államokban is végezhetnek adatkezelést.
 
 Az ilyen továbbításokhoz az alkalmazandó szolgáltatói szerződések szerinti GDPR-garanciák szükségesek, például megfelelőségi határozat vagy általános szerződési feltételek. A ténylegesen alkalmazott garanciákról és azok másolatáról a kapcsolattartási címen kérhet tájékoztatást.
 
@@ -85,6 +90,13 @@ A készülék helyi tárhelyén bejelentkezési állapot, beállítások és gyo
 - A widget szerveroldali feldolgozási rekordjai és használati számlálói megmaradhatnak a fiók törléséig; a helyi piszkozat eltávolítása nem feltétlenül törli a szerver feldolgozási rekordját.
 - A fióktörlés a **Továbbiak → Fiók és beállítások → Fiók törlése** útvonalon indítható, vagy e-mailben kérhető. Az e-mailes kérelemnél a jogosultságot ellenőrizzük.
 - A fióktörlés eltávolítja a Firebase-fiókot és a hozzá tartozó, az alkalmazás törlési folyamatával kezelt profilt, saját pénzügyi rekordokat, hozzáférési és használati adatokat, valamint az érintett meghívókat. A saját tulajdonú háztartás megszűnik, tagjainál a tagsági kapcsolat törlődik. Más tagok által létrehozott rekordok nem válnak ettől automatikusan az Ön törlendő adataivá.
+- Megőrzési idők:
+    - Sentry hibajelentések: legfeljebb 90 nap.
+    - Google Cloud technikai naplók: 30 nap; a Google által kötelezően vezetett rendszer- és auditnaplók legfeljebb 400 nap.
+    - OpenAI: a 4. pont szerint, alapértelmezés szerint legfeljebb 30 nap.
+    - RevenueCat előfizetési és ügyféladatok: a fiók fennállásáig, illetve törlési kérelemig.
+    - Ügyfélszolgálati levelezés: panasz esetén a fogyasztóvédelmi szabályok szerint 3 év, egyéb megkeresésnél a lezárástól számított 1 év.
+    - Az adatbázisról jelenleg nem készül ütemezett biztonsági mentés.
 - A törlés nem vonható vissza. Az alkalmazás nem ígér minden rendszerre és biztonsági másolatra kiterjedő azonnali törlést: a szolgáltatói naplók, biztonsági másolatok, áruházi bizonylatok és jogszabály alapján megőrzendő adatok külön megőrzés alá eshetnek. A Firebase Authentication tájékoztatója szerint a törlés kezdeményezése után a hitelesítési adatok eltávolítása az éles és mentési rendszerekből legfeljebb 180 napot vehet igénybe.
 - A jelenlegi fióktörlési folyamat nem indít külön RevenueCat- vagy Sentry-adattörlést. Az ezekhez kapcsolódó kérelmekkel is írhat az adatvédelmi címre; a kérelem terjedelméről és a megőrzés indokairól tájékoztatást adunk.
 - A készüléken maradt adatok eltávolításához az alkalmazás helyi adatainak törlése is szükséges lehet. A készülék és az operációs rendszer mentései külön kezelendők.
@@ -106,7 +118,7 @@ Panaszt tehet az illetékes felügyeleti hatóságnál, Magyarországon a **Nemz
 
 ## 9. Gyermekek, hirdetések és használati elemzés
 
-Az alkalmazást nem 13 év alatti gyermekeknek szánjuk. Kiskorú használatánál a jogszabályok szerinti törvényes képviselői közreműködés szükséges lehet; a korhatár önmagában nem helyettesíti ezt. Ha gyermek jogosulatlan adatközléséről tud, jelezze a kapcsolattartási címen.
+Az alkalmazást nagykorú, 18. életévüket betöltött felhasználóknak szánjuk. Ha kiskorú adatainak kezeléséről tud, jelezze a kapcsolattartási címen, és az adatokat töröljük.
 
 Az alkalmazás nem jelenít meg hirdetéseket. A „nem használunk analitikát” állítás helyett a tényleges működést ismertetjük: RevenueCat használati attribútumokat és előfizetési adatokat, Sentry technikai hibajelentéseket kezel az 5. pont szerint. Ezek a fiókhoz kapcsolhatók, ezért nem tekintjük őket anonim adatoknak.
 

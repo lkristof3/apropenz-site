@@ -1,26 +1,38 @@
 # aprópénz – nyilvános tájékoztató oldalak
 
+> Belső munkajegyzet. A `_config.yml` kizárja a GitHub Pages-buildből, így a nyilvános oldalon nem jelenik meg; a nyitóoldal az `index.md`.
+
 A mobilalkalmazásból hivatkozott oldalak:
 
 - [Adatkezelési tájékoztató](privacy.md) → `/apropenz-site/privacy`
 - [Felhasználási feltételek](aszf.md) → `/apropenz-site/aszf`
 - [Támogatás és fióktörlés](support.md) → `/apropenz-site/support`
 
-## A 2026. október 24-i frissítés állapota
+## A 2026. október 26-i frissítés állapota
 
-**Helyi tervezet; közzététel előtt az alábbi nyitott pontokat rendezni kell.** A dokumentumok frissítési dátuma nem igazolja, hogy azok már hatályba léptek vagy megjelentek az élő webhelyen.
+**Helyi tervezet.** A dokumentumok frissítési dátuma nem igazolja, hogy azok már hatályba léptek vagy megjelentek az élő webhelyen.
 
-A szövegek az alkalmazás aktuális forráskódjával összevetve készültek. A felülvizsgálat nem jelent teljes jogi megfelelőségi igazolást, és nem ellenőrizte az éles szolgáltatói konzolok beállításait vagy a telepített backend verzióját.
+A szövegek az alkalmazás aktuális forráskódjával összevetve készültek. A felülvizsgálat nem jelent teljes jogi megfelelőségi igazolást.
 
-### Közzététel előtt tisztázandó adatok
+### Rendezett pontok (2026. október 26.)
 
-1. **Az üzemeltető és adatkezelő személye:** a `privacy.md` 1. és az `aszf.md` 1. pontjába a tényleges jogi név és megfelelő elérhetőségi/címadatok kerüljenek. Vállalkozás esetén a jogállásnak megfelelő nyilvántartási, adózási és egyéb kötelező szolgáltatói adatok is szükségesek lehetnek. A jelenlegi e-mail-cím nem azonosítja önmagában az adatkezelőt. Firebase általában adatfeldolgozó; nem helyettesíti az alkalmazás üzemeltetőjét.
-2. **Szolgáltatói szerződések és adattovábbítás:** ellenőrizni kell a tényleges szerződő Google-, OpenAI-, RevenueCat- és Sentry-entitásokat, az adatfeldolgozási megállapodásokat, az EGT-n kívüli továbbítás tényleges garanciáit és a projekt régiós beállításait. A Functions `europe-west3` régiója nem bizonyítja az összes adat EU-n belüli kezelését.
-3. **OpenAI-hangfeldolgozás:** a helyi alkalmazásforrás a hangbevitelhez is OpenAI-t használ (`gpt-transcribe`, majd `gpt-6-luna`). Közzététel előtt ellenőrizni kell az éles backend átállását és a tényleges fiók-, régiós és megőrzési beállításokat. A helyi módosítás nem igazolja az éles átállást.
-4. **Megőrzési szabályok:** meg kell határozni és a tájékoztatóban pontosítani a tényleges Sentry-, Cloud Logging-, RevenueCat-, ügyfélszolgálati és mentési megőrzési időket, illetve az alkalmazandó jogi kivételeket. Az ismeretlen konzolbeállítások helyére nem került kitalált nap- vagy évszám.
-5. **Jogos érdek és használati attribútumok:** dokumentálni kell az érdekmérlegelést a RevenueCat-attribútumokra és a hibakövetésre. Ellenőrizni kell, hogy az alkalmazott SDK-k és helyi hozzáférések miatt szükséges-e külön hozzájárulás vagy további választási lehetőség. A tájékoztató megfogalmazása önmagában nem pótolja ezt.
-6. **Kiskorúak és fogyasztói tájékoztatás:** a korábbi 13 éves termékkorhatár nem helyettesíti a cselekvőképességi, hozzájárulási és az AI-szolgáltatói korhatárfeltételek vizsgálatát. Az értékesítési modell alapján ellenőrizni kell az ÁSZF szolgáltatói adatait, az elállás/felmondás részletes tájékoztatását, panaszkezelési határidőit és az illetékes békéltető testület adatait. Az áruházi vásárlási felületet is össze kell vetni ezekkel.
-7. **Éles működés és áruházi adatlapok:** az éles backend és az App Store adatvédelmi / Google Play Data Safety nyilatkozatok legyenek összhangban a végleges szövegekkel. A tájékoztató használati jelzésekre, pénzügyi adatokra és hangfeldolgozásra is kiterjed.
+- **Üzemeltető:** Ladányi Kristóf egyéni vállalkozó; a szolgáltatói adatok a `privacy.md` és az `aszf.md` 1. pontjában szerepelnek. Az adóazonosító jel szándékosan nem nyilvános.
+- **Adatfeldolgozói szerződések:** az üzemeltető közlése szerint a Google/Firebase, OpenAI, RevenueCat és Sentry feltételei elfogadva.
+- **Tárolási hely:** a Firestore éles adatbázisa `eur3` (EU többrégiós), a Functions régiója `europe-west3`, a Sentry EU-s fogadóponton (`ingest.de.sentry.io`) kap adatot. Ütemezett Firestore-mentés és időpontra visszaállítás nincs bekapcsolva (2026. október 26-án ellenőrizve).
+- **Megőrzés:** szolgáltatói alapértékek – Sentry legfeljebb 90 nap (csomagtól függően 30 vagy 90), Cloud Logging `_Default` 30 nap és `_Required` 400 nap, OpenAI legfeljebb 30 nap; ügyfélszolgálati panasz 3 év (Fgy. tv. 17/A. §), egyéb levelezés 1 év.
+- **Korhatár:** az alkalmazás 18 év felettieknek szól; a Google Play célközönsége is 18+.
+- **Békéltető testület:** Budapesti Békéltető Testület (székhely szerint).
+- **Áruházi adatlapok:** a javasolt App Privacy és Data safety válaszok a szülő repozitórium `docs/store-privacy-declarations.md` fájljában.
+
+### Közzététel előtt még szükséges
+
+1. **Éles backend telepítése:** 2026. október 26-án az éles `voiceToTransactions` még Geminit használt (`GEMINI_API_KEY`), a widgetfeldolgozó függvények (`submitQuickCapture`, `processWidgetCapture`) és a visszaélés-védelmi korlátok nem voltak élesítve. A tájékoztató az OpenAI-alapú hangfeldolgozást írja le, ezért csak a Functions éles telepítése után tehető közzé.
+2. **Áruházi adatlapok kitöltése** a fenti dokumentum szerint, a közzétett szöveggel összhangban.
+
+### Jogos érdek – rövid érdekmérlegelés
+
+- **Hibakövetés (Sentry):** cél a hibák feltárása és a szolgáltatás biztonsága. Csak technikai adat és a Firebase-azonosító kerül át, `sendDefaultPii: false`, naplók kikapcsolva, EU-s fogadópont, legfeljebb 90 napos megőrzés. A felhasználó észszerűen számíthat rá egy előfizetéses alkalmazásnál; a hatás csekély.
+- **RevenueCat-használati attribútumok:** cél az előfizetési ajánlatok és az aktiválás értékelése. Csak igen/nem jelzések és tranzakciószám-tartomány; összeg, leírás, kategória vagy hang nem. Hirdetési vagy alkalmazásokon átívelő követés nincs. A felhasználó a kapcsolattartási címen tiltakozhat; ehhez jelenleg nincs alkalmazáson belüli kapcsoló, a kérelmet egyedileg kezeljük.
 
 ### Forráskóddal igazolt, külön figyelmet igénylő működés
 
@@ -30,6 +42,8 @@ A szövegek az alkalmazás aktuális forráskódjával összevetve készültek. 
 - A widget szerveroldali `_quickCaptures` rekordjai nyers szöveget és eredménymezőket tartalmazhatnak. A helyi tétel eltávolítása nem törli ezeket; a fióktörlés kezeli őket.
 - A háztartás törlése eltávolítja a háztartást, meghívókat és tagsági kapcsolatokat; nem az összes közös pénzügyi dokumentum törlése. A fióktörlés a `userId` szerinti saját rekordokat célozza.
 - A Google- és Apple-bejelentkezés látható a jelenlegi belépési felületen. Facebook-segédfüggvény maradt a forrásban, de nincs hozzá felhasználói belépési lehetőség; ezért nem szerepel kínált funkcióként.
+- A hangfelvételt a szerver átmeneti fájlban dekódolja és normalizálja (`functions/src/voiceAudio.ts`), majd a fájlt sikeres és sikertelen ágon is törli. A kliens 55 másodpercnél leállítja a felvételt, a szerver 60 másodperc felett elutasítja.
+- Háztartási meghívó csak ellenőrzött (`email_verified`) e-mail-címmel fogadható el.
 - Az OpenAI szövegkinyerési kérés `store: false` beállítással fut. Ez nem tiltja le a szolgáltatói visszaélés-figyelési naplókat.
 
 ### Ellenőrzéshez használt alkalmazásforrások
@@ -40,9 +54,9 @@ A szülő alkalmazás-repozitóriumban:
 - `functions/src/completeOnboarding.ts`, `functions/src/appAccess.ts`, `src/features/subscription/models/app-access.ts`
 - `src/features/subscription/constants/customer-attribute-policy.ts`, `src/features/subscription/components/customer-attribute-sync.tsx`, `src/features/subscription/lib/revenueCat.ts`
 - `functions/src/textToTransactions.ts`, `functions/src/expenseResponses.ts`, `functions/src/expenseUnderstanding.ts`, `functions/src/categorizeQuickCapture.ts`
-- `functions/src/voiceToTransactions.ts`, `src/features/transactions/hooks/use-expense-voice-input.ts`
+- `functions/src/voiceToTransactions.ts`, `functions/src/voiceAudio.ts`, `functions/src/voiceExpenseUnderstanding.ts`, `src/features/transactions/hooks/use-expense-voice-input.ts`
 - `functions/src/quickCapture.ts`, `src/features/transactions/api/quick-capture-storage.ts`, `src/features/transactions/components/widget-capture-processor.tsx`
-- `functions/src/deleteAccount.ts`, `functions/src/householdFunctions.ts`
+- `functions/src/deleteAccount.ts`, `functions/src/householdFunctions.ts`, `functions/src/creationLimits.ts`, `functions/src/subscriptionSyncLimit.ts`
 - `src/app/_layout.tsx`, `src/features/account/screens/settings-screen.tsx`
 
 ### Hivatalos háttérforrások

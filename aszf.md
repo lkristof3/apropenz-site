@@ -1,10 +1,21 @@
 # Általános Szerződési Feltételek (ÁSZF)
 
-**Frissítve:** 2026. október 24.
+**Frissítve:** 2026. október 26.
 
 ## 1. Szolgáltatás és kapcsolat
 
-Az **aprópénz** személyes és közös háztartási pénzügyi nyilvántartó mobilalkalmazás. Kapcsolat és panaszkezelés: [apropenzapp@gmail.com](mailto:apropenzapp@gmail.com).
+Az **aprópénz** személyes és közös háztartási pénzügyi nyilvántartó mobilalkalmazás.
+
+A szolgáltató:
+
+**Ladányi Kristóf egyéni vállalkozó**
+
+- Székhely: 1071 Budapest, Dembinszky utca 46. 4. em. 57.
+- Nyilvántartási szám: 61940565
+- Adószám: 91805917-1-42
+- Közösségi adószám: HU91805917
+- Nyilvántartó: egyéni vállalkozók nyilvántartása (Belügyminisztérium)
+- Kapcsolat és panaszkezelés: [apropenzapp@gmail.com](mailto:apropenzapp@gmail.com)
 
 Az alkalmazásban kiadásokat és bevételeket, kategóriákat és leírásaikat, sablonokat, ismétlődő tételeket és költségkereteket kezelhet, előzményeket és statisztikákat tekinthet meg. Szöveges és hangos bevitel, valamint támogatott környezetben widgetes gyorsrögzítés is rendelkezésre állhat. A funkciók elérhetősége platformtól, alkalmazásverziótól, hálózattól és hozzáférési jogosultságtól függhet.
 
@@ -12,7 +23,7 @@ Az alkalmazás nyilvántartási eszköz; nem banki, fizetési, befektetési vagy
 
 ## 2. Fiók és használati jogosultság
 
-Az alkalmazást nem 13 év alatti gyermekeknek szánjuk. Kiskorúként a vonatkozó jogszabályok szerint szükséges szülői vagy törvényes képviselői közreműködéssel használhatja, illetve vásárolhat előfizetést.
+Az alkalmazást nagykorú, 18. életévüket betöltött felhasználóknak szánjuk.
 
 Vendégfiókkal, Google-fiókkal, illetve támogatott Apple-környezetben Apple-fiókkal lehet belépni. A vendégfiókhoz is tartozik szerveroldali azonosító és adattárolás; ez nem jelent teljes anonimitást. A megjelenített fiók-összekapcsolási lehetőséggel a vendégfiókot bejelentkezési fiókhoz kapcsolhatja. Másik, már létező fiókba történő belépés nem jelent automatikus adatösszevonást.
 
@@ -69,7 +80,7 @@ Az AI-feldolgozás adatátadását, a hangfelvétel kezelését és a helyi tár
 
 ## 5. Közös háztartás
 
-A háztartási funkcióval közös nézetben kezelhet pénzügyi adatokat. A közös nézethez rendelt tételekhez más háztartástagok is hozzáférhetnek az alkalmazás jogosultságai szerint. Meghívás előtt ellenőrizze a címzett e-mail-címét, rögzítés előtt pedig a kiválasztott nézetet.
+A háztartási funkcióval közös nézetben kezelhet pénzügyi adatokat. A közös nézethez rendelt tételekhez más háztartástagok is hozzáférhetnek az alkalmazás jogosultságai szerint. Meghívás előtt ellenőrizze a címzett e-mail-címét, rögzítés előtt pedig a kiválasztott nézetet. Meghívót csak az a fiók fogadhat el, amelynek bejelentkezési szolgáltató által ellenőrzött e-mail-címe megegyezik a meghívott címmel; vendégfiókkal meghívó nem fogadható el.
 
 A háztartás elhagyása, tagság megszüntetése vagy a háztartás törlése nem azonos az összes korábban közösen kezelt pénzügyi rekord törlésével. Saját fiókjának törlése más tagok fiókját és saját rekordjait nem törli. A tulajdonos fiókjának törlése megszünteti az általa tulajdonolt háztartást és a tagsági kapcsolatokat.
 
@@ -101,6 +112,16 @@ Az adatkezelésről külön [Adatkezelési tájékoztató](privacy) rendelkezik.
 
 A szolgáltatás vagy az ÁSZF lényeges változásáról a jogszabály szerinti tartalommal és határidőben tájékoztatjuk. A változtatás nem vonhat el kötelező fogyasztói jogot; ahol külön elfogadás szükséges, a további használat önmagában nem helyettesíti azt.
 
-Az ÁSZF magyar nyelvű. Magyar jog alkalmazása esetén is fennmaradnak a fogyasztó szokásos tartózkodási helye szerint irányadó, eltérést nem engedő védelmi szabályok és a jogszabály szerinti bírósághoz fordulás lehetőségei. Vitás ügyben először az [apropenzapp@gmail.com](mailto:apropenzapp@gmail.com) címre írhat. A fogyasztó az illetékes békéltető testülethez és bírósághoz is fordulhat.
+Az ÁSZF magyar nyelvű. Magyar jog alkalmazása esetén is fennmaradnak a fogyasztó szokásos tartózkodási helye szerint irányadó, eltérést nem engedő védelmi szabályok és a jogszabály szerinti bírósághoz fordulás lehetőségei. Vitás ügyben először az [apropenzapp@gmail.com](mailto:apropenzapp@gmail.com) címre írhat. Panaszára 30 napon belül írásban válaszolunk. Ha a panasz rendezése nem sikerül, a fogyasztó békéltető testülethez és bírósághoz is fordulhat. A szolgáltató székhelye szerint illetékes:
+
+**Budapesti Békéltető Testület**
+
+- Cím: 1016 Budapest, Krisztina krt. 99. I. em. 111.
+- Levelezési cím: 1253 Budapest, Pf. 10.
+- Telefon: +36 1 488 2131
+- E-mail: [bekelteto.testulet@bkik.hu](mailto:bekelteto.testulet@bkik.hu)
+- Weboldal: [bekeltet.bkik.hu](https://bekeltet.bkik.hu)
+
+A fogyasztó a lakóhelye vagy tartózkodási helye szerint illetékes békéltető testülethez is fordulhat.
 
 [Adatkezelési tájékoztató](privacy) · [Támogatás és fióktörlés](support)
