@@ -1,6 +1,6 @@
 # Adatkezelési tájékoztató
 
-**Frissítve:** 2026. október 26.
+**Frissítve:** 2026. november 1.
 
 Ez a tájékoztató az **aprópénz** mobilalkalmazásban kezelt személyes adatokról, azok felhasználásáról és az Ön jogairól szól. A tájékoztató megismerése nem jelent általános hozzájárulást minden adatkezeléshez: az egyes célok jogalapját külön ismertetjük.
 
@@ -50,13 +50,13 @@ A fiók és az adott funkció működéséhez szükséges adatok nélkül az ér
 
 A szöveges bevitel egy része helyben értelmezhető. Amikor AI-feldolgozás történik, a szerver az értelmezendő szöveget, a kapcsolódó kiadási mezőket, a kategóriák azonosítóit, neveit és leírásait, valamint az értelmezéshez szükséges dátumot továbbítja az OpenAI API-nak. A kategórialeírásokba írt személyes információk is részei lehetnek ennek az adatátadásnak. Az AI-kérés összeállításához nem szükséges a felhasználó neve vagy e-mail-címe.
 
-Az OpenAI API adatait alapértelmezés szerint nem használja modelljei tanítására. A szövegkinyerési kérésben a válasz tárolását letiltjuk (`store: false`); ez nem jelenti a szolgáltatói biztonsági naplók kizárását. Az OpenAI alapértelmezett visszaélés-figyelési naplói legfeljebb 30 napig őrizhetők meg, jogi vagy biztonsági kivételekkel. Részletek: [OpenAI adatkezelési beállítások](https://developers.openai.com/api/docs/guides/your-data).
+Az OpenAI API adatait alapértelmezés szerint nem használja modelljei tanítására. A szövegkinyerési kérésben a válasz szolgáltatói tárolását letiltjuk; ez nem jelenti a szolgáltatói biztonsági naplók kizárását. Az OpenAI alapértelmezett visszaélés-figyelési naplói legfeljebb 30 napig őrizhetők meg, jogi vagy biztonsági kivételekkel. Részletek: [OpenAI adatkezelési beállítások](https://developers.openai.com/api/docs/guides/your-data).
 
 ### Hangbevitel – OpenAI
 
-A mikrofon csak az Ön által indított felvételhez szükséges. A feldolgozás indításakor a hangfelvétel a Firebase szerverére kerül. A szerver átmeneti fájlban ellenőrzi és egységes formátumra (egycsatornás, 16 kHz) alakítja, majd ezt a változatot küldi az OpenAI átíró API-jának. Az átmeneti szerverfájlt a feldolgozás után – sikeres és sikertelen esetben is – töröljük. Egy felvétel legfeljebb kb. 60 másodperces lehet; az alkalmazás 55 másodperc után automatikusan leállítja és feldolgozza a felvételt. Az elkészült átiratot egy második OpenAI-kérés értelmezi, a kiadási kategóriák nevével, leírásával és a dátumértelmezéshez szükséges információval együtt. A válaszban felismert összegek, dátumok, kategóriák és megjegyzések jelennek meg.
+A mikrofon csak az Ön által indított felvételhez szükséges. A feldolgozás indításakor a hangfelvétel a Firebase szerverére kerül. A szerver átmeneti fájlban ellenőrzi és egységes hangformátumra alakítja, majd ezt a változatot küldi az OpenAI átíró API-jának. Az átmeneti szerverfájlt a feldolgozás után – sikeres és sikertelen esetben is – töröljük. Egy felvétel legfeljebb kb. egyperces lehet; a határ elérésekor az alkalmazás automatikusan leállítja és feldolgozza a felvételt. Az elkészült átiratot egy második OpenAI-kérés értelmezi, a kiadási kategóriák nevével, leírásával és a dátumértelmezéshez szükséges információval együtt. A válaszban felismert összegek, dátumok, kategóriák és megjegyzések jelennek meg.
 
-Az alkalmazás backendje nem menti a nyers hangot a pénzügyi adatbázisba. A készüléken átmeneti hangfájl keletkezik, amelyet a jelenlegi megvalósítás nem minden esetben töröl kifejezetten a feldolgozás után. Az átiratot sem mentjük a pénzügyi adatbázisba. Az értelmezési kérés `store: false` beállítással fut. A szolgáltatói adatkezelésre az OpenAI fent hivatkozott feltételei és a tényleges fiókbeállítások irányadók. Az alkalmazás nem végez háttérben folyamatos hangrögzítést.
+Az alkalmazás backendje nem menti a nyers hangot a pénzügyi adatbázisba. A készüléken átmeneti hangfájl keletkezik, amelyet a jelenlegi megvalósítás nem minden esetben töröl kifejezetten a feldolgozás után. Az átiratot sem mentjük a pénzügyi adatbázisba. Az értelmezési kérésnél is letiltjuk a válasz szolgáltatói tárolását. A szolgáltatói adatkezelésre az OpenAI fent hivatkozott feltételei és a tényleges fiókbeállítások irányadók. Az alkalmazás nem végez háttérben folyamatos hangrögzítést.
 
 ### Eredmények és automatikus rögzítés
 
@@ -67,7 +67,7 @@ A normál szöveges és hangos bevitel eredményeit mentés előtt ellenőrizhet
 - **Google Firebase / Google Cloud:** hitelesítés, Firestore-adattárolás, szerveroldali feldolgozás, technikai naplók és App Check biztonsági ellenőrzések. [Firebase adatvédelem](https://firebase.google.com/support/privacy).
 - **OpenAI:** a 4. pont szerinti szöveges értelmezés, kategorizálás és hangfeldolgozás.
 - **RevenueCat:** felhasználói azonosító, előfizetési és vásárlási információk, technikai adatok, valamint az aktiválás, tranzakciószám-tartomány (`0`, `1–2`, `3–9`, `10–49`, `50+`), költségkeret- és hangbevitel-használat jelzése. Az alkalmazás ezekben az egyéni attribútumokban nem küld konkrét összegeket, tranzakcióleírásokat, kategórianeveket vagy hangot. [RevenueCat adatvédelem](https://www.revenuecat.com/privacy).
-- **Sentry:** hibakövetés, technikai hibajelentések és a Firebase-felhasználói azonosító. Az alapértelmezett személyesadat-küldés és a Sentry Logs ki van kapcsolva; ez nem zárja ki, hogy egy hibaüzenet személyes adatot tartalmazzon. [Sentry adatvédelem](https://sentry.io/privacy/).
+- **Sentry:** hibakövetés, technikai hibajelentések és a Firebase-felhasználói azonosító. Az automatikus személyesadat-küldést és a naplóküldést kikapcsoltuk; ez nem zárja ki, hogy egy hibaüzenet személyes adatot tartalmazzon. [Sentry adatvédelem](https://sentry.io/privacy/).
 - **Google és Apple bejelentkezési szolgáltatás:** a választott bejelentkezéshez szükséges adatok. [Google adatvédelem](https://policies.google.com/privacy), [Apple adatvédelem](https://www.apple.com/legal/privacy/).
 - **Apple App Store / Google Play:** vásárlás és fizetés, saját feltételeik szerint. A fizetési adatokat az áruház kezeli.
 - **Háztartás tagjai:** a közös nézethez rendelt adatok és a tagság kezeléséhez szükséges profiladatok. A személyes és a közös nézet közötti választás előtt ellenőrizze, kivel kívánja megosztani a tételt.
@@ -76,11 +76,11 @@ A Google és az Apple például a saját fiók- és fizetési szolgáltatásukho
 
 ## 6. Tárolás, biztonság és nemzetközi adattovábbítás
 
-A felhőadatokat Firebase-ben tároljuk: a Firestore-adatbázis az Európai Unión belüli többrégiós (`eur3`) helyen található, a szerverfunkciók régiója `europe-west3` (Frankfurt), a Sentry hibajelentéseit EU-s adatközpontba küldjük. Ez önmagában nem jelenti, hogy valamennyi szolgáltató minden adatot kizárólag az EU-ban kezel. Az AI-, hitelesítési, előfizetési és hibakövetési szolgáltatások az EGT-n kívül, például az Egyesült Államokban is végezhetnek adatkezelést.
+A felhőadatokat Firebase-ben tároljuk: az adatbázis és a szerverfunkciók az Európai Unión belüli adatközpontokban működnek, a hibajelentéseket EU-s adatközpontba küldjük. Ez önmagában nem jelenti, hogy valamennyi szolgáltató minden adatot kizárólag az EU-ban kezel. Az AI-, hitelesítési, előfizetési és hibakövetési szolgáltatások az EGT-n kívül, például az Egyesült Államokban is végezhetnek adatkezelést.
 
 Az ilyen továbbításokhoz az alkalmazandó szolgáltatói szerződések szerinti GDPR-garanciák szükségesek, például megfelelőségi határozat vagy általános szerződési feltételek. A ténylegesen alkalmazott garanciákról és azok másolatáról a kapcsolattartási címen kérhet tájékoztatást.
 
-A hálózati adatátvitel titkosított. A hozzáférést hitelesítés, adatbázis-jogosultságok és a támogatott kéréseknél alkalmazás-ellenőrzés védi. Teljes kockázatmentességet nem lehet garantálni.
+A hálózati adatátvitel titkosított. A hozzáférést hitelesítés, adatbázis-jogosultságok és további biztonsági ellenőrzések védik. Teljes kockázatmentességet nem lehet garantálni.
 
 A készülék helyi tárhelyén bejelentkezési állapot, beállítások és gyorsrögzítési piszkozatok is maradhatnak. Ezek nem mind azonosak a szerveren tárolt adatokkal; a kijelentkezés nem jelent minden helyi adatot érintő törlést.
 
@@ -96,7 +96,6 @@ A készülék helyi tárhelyén bejelentkezési állapot, beállítások és gyo
     - OpenAI: a 4. pont szerint, alapértelmezés szerint legfeljebb 30 nap.
     - RevenueCat előfizetési és ügyféladatok: a fiók fennállásáig, illetve törlési kérelemig.
     - Ügyfélszolgálati levelezés: panasz esetén a fogyasztóvédelmi szabályok szerint 3 év, egyéb megkeresésnél a lezárástól számított 1 év.
-    - Az adatbázisról jelenleg nem készül ütemezett biztonsági mentés.
 - A törlés nem vonható vissza. Az alkalmazás nem ígér minden rendszerre és biztonsági másolatra kiterjedő azonnali törlést: a szolgáltatói naplók, biztonsági másolatok, áruházi bizonylatok és jogszabály alapján megőrzendő adatok külön megőrzés alá eshetnek. A Firebase Authentication tájékoztatója szerint a törlés kezdeményezése után a hitelesítési adatok eltávolítása az éles és mentési rendszerekből legfeljebb 180 napot vehet igénybe.
 - A jelenlegi fióktörlési folyamat nem indít külön RevenueCat- vagy Sentry-adattörlést. Az ezekhez kapcsolódó kérelmekkel is írhat az adatvédelmi címre; a kérelem terjedelméről és a megőrzés indokairól tájékoztatást adunk.
 - A készüléken maradt adatok eltávolításához az alkalmazás helyi adatainak törlése is szükséges lehet. A készülék és az operációs rendszer mentései külön kezelendők.
