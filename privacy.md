@@ -48,6 +48,8 @@ A fiók és az adott funkció működéséhez szükséges adatok nélkül az ér
 
 ## 4. AI-funkciók és hangfelvétel
 
+Az alábbi AI-feldolgozáshoz az alkalmazás az első használat előtt külön kéri az Ön kifejezett engedélyét: megnevezi az OpenAI-t, felsorolja az átadott adatokat, és csak az elfogadás után küld adatot. Elutasítás esetén a kiadást kézzel rögzítheti. Az engedélyt bármikor visszavonhatja a **Fiók és beállítások → Adatvédelem** részben; a visszavonás után nem indítunk újabb AI-feldolgozást. Az engedély verzióját és időpontját a fiókjához tároljuk.
+
 ### Szöveges értelmezés és kategorizálás – OpenAI
 
 A szöveges bevitel egy része helyben értelmezhető. Amikor AI-feldolgozás történik, a szerver az értelmezendő szöveget, a kapcsolódó kiadási mezőket, a kategóriák azonosítóit, neveit és leírásait, valamint az értelmezéshez szükséges dátumot továbbítja az OpenAI API-nak. A kategórialeírásokba írt személyes információk is részei lehetnek ennek az adatátadásnak. Az AI-kérés összeállításához nem szükséges a felhasználó neve vagy e-mail-címe.
