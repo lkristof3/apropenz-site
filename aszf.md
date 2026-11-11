@@ -15,6 +15,8 @@ A szolgáltató:
 - Adószám: 91805917-1-42
 - Nyilvántartó: egyéni vállalkozók nyilvántartása (Belügyminisztérium)
 - Kapcsolat és panaszkezelés: [apropenzapp@gmail.com](mailto:apropenzapp@gmail.com)
+- Tárhelyszolgáltató (alkalmazás): Google Cloud EMEA Limited, 70 Sir John Rogerson's Quay, Dublin 2, D02 R296, Írország; [kapcsolat](https://cloud.google.com/contact)
+- Tárhelyszolgáltató (weboldal): GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA; [kapcsolat](https://support.github.com/)
 
 Az alkalmazásban kiadásokat és bevételeket, kategóriákat és leírásaikat, sablonokat, ismétlődő tételeket és költségkereteket kezelhet, előzményeket és statisztikákat tekinthet meg. Szöveges és hangos bevitel, valamint támogatott környezetben widgetes gyorsrögzítés is rendelkezésre állhat. A funkciók elérhetősége platformtól, alkalmazásverziótól, hálózattól és hozzáférési jogosultságtól függhet.
 
