@@ -1,6 +1,6 @@
 # Általános Szerződési Feltételek (ÁSZF)
 
-**Frissítve:** 2026. október 26.
+**Frissítve:** 2026. november 11.
 
 ## 1. Szolgáltatás és kapcsolat
 
@@ -13,7 +13,6 @@ A szolgáltató:
 - Székhely: 1071 Budapest, Dembinszky utca 46. 4. em. 57.
 - Nyilvántartási szám: 61940565
 - Adószám: 91805917-1-42
-- Közösségi adószám: HU91805917
 - Nyilvántartó: egyéni vállalkozók nyilvántartása (Belügyminisztérium)
 - Kapcsolat és panaszkezelés: [apropenzapp@gmail.com](mailto:apropenzapp@gmail.com)
 
@@ -41,13 +40,13 @@ Ez a próbaidő önmagában nem áruházi előfizetés, nem igényel vásárlás
 
 Aktív próbaidő vagy előfizetés nélkül a korábbi tranzakciók előzményei továbbra is olvashatók. Új adatok rögzítése és módosítása, valamint az előfizetéshez kötött eszközök, például a költségkeretek, sablonok, AI-feldolgozás és a háztartás egyes kezelési műveletei korlátozottak. A fióktörlés és a támogatás elérése nem igényel aktív előfizetést.
 
-A lejárat nem törli automatikusan a korábbi nyilvántartást. A korábbi, kategória- és sablonszámhoz kötött ingyenes csomag leírása nem a jelenlegi hozzáférési modellt tükrözi.
+A lejárat nem törli automatikusan a korábbi nyilvántartást.
 
 ### 3.3. Havi és éves előfizetés
 
 A havi és éves aprópénz-előfizetés ugyanazt a Pro-hozzáférést biztosítja, eltérő számlázási időszakkal. Az aktuális ár, pénznem, számlázási időszak és esetleges ajánlat a vásárlás előtt az alkalmazásban és az áruház jóváhagyó felületén látható. A vásárlás előtt ezeket ellenőrizze.
 
-Az előfizetés nem jelent korlátlan AI-kapacitást vagy garantált folyamatos rendelkezésre állást. A hangos és szöveges feldolgozást használati, méret- és gyakorisági korlátok védik; elérésükkor az alkalmazás visszajelzést ad.
+Az előfizetés nem jelent korlátlan AI-kapacitást vagy garantált folyamatos rendelkezésre állást. Az AI-feldolgozásra használati korlátok vonatkoznak; elérésükkor az alkalmazás visszajelzést ad.
 
 ### 3.4. Fizetés, megújítás és lemondás
 
@@ -70,7 +69,7 @@ Vásárlási probléma esetén az áruház visszatérítési felületén vagy az
 
 A kézi bevitel mellett a szöveges és hangos feldolgozás kiadási adatokat javasolhat. Az AI tévesen ismerhet fel összeget, dátumot, leírást vagy kategóriát. A normál bevitelnél a mentés előtt ellenőrizze és javítsa a mezőket; a sablon kiválasztása önmagában nem jelent könyvelést.
 
-A widgetből indított gyorsrögzítés az értelmezhető és ellenőrzött kiadást automatikusan elmentheti. Hiányos, bizonytalan vagy elutasított feldolgozásnál a tétel ellenőrzésre várhat. A szerver által már átvett feldolgozás az alkalmazás bezárása után is folytatódhat. Ellenőrizze az eredményt az alkalmazásban.
+A widgetből indított gyorsrögzítés az értelmezhető és ellenőrzött kiadást automatikusan elmentheti. Hiányos, bizonytalan vagy elutasított feldolgozásnál a tétel ellenőrzésre várhat. Ellenőrizze az eredményt az alkalmazásban.
 
 A helyreállítható gyorsrögzítések helyi piszkozatként is megmaradhatnak. A normál szerkesztő bezárásakor nem minden el nem mentett adat állítható helyre. A piszkozat nem feltétlenül mentett tranzakció. Sikertelen vagy még folyamatban lévő rögzítésnél a tényleges állapotot ellenőrizze az előzményekben.
 
@@ -82,7 +81,7 @@ Az AI-feldolgozás adatátadását, a hangfelvétel kezelését és a helyi tár
 
 A háztartási funkcióval közös nézetben kezelhet pénzügyi adatokat. A közös nézethez rendelt tételekhez más háztartástagok is hozzáférhetnek az alkalmazás jogosultságai szerint. Meghívás előtt ellenőrizze a címzett e-mail-címét, rögzítés előtt pedig a kiválasztott nézetet. Meghívót csak az a fiók fogadhat el, amelynek bejelentkezési szolgáltató által ellenőrzött e-mail-címe megegyezik a meghívott címmel; vendégfiókkal meghívó nem fogadható el.
 
-A háztartás elhagyása, tagság megszüntetése vagy a háztartás törlése nem azonos az összes korábban közösen kezelt pénzügyi rekord törlésével. Saját fiókjának törlése más tagok fiókját és saját rekordjait nem törli. A tulajdonos fiókjának törlése megszünteti az általa tulajdonolt háztartást és a tagsági kapcsolatokat.
+A háztartás elhagyása vagy a tagság megszüntetése nem törli a közös nézethez rendelt tételeket; azok a háztartásban maradnak. A háztartás törlése – ideértve a tulajdonos fióktörlését is – a háztartás összes közös adatát törli, a többi tag által rögzített közös tételekkel együtt. Saját fiókjának törlése más tagok fiókját nem törli.
 
 ## 6. Rendeltetésszerű használat és szellemi tulajdon
 

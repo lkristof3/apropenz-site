@@ -1,6 +1,6 @@
 # Támogatás és fióktörlés
 
-**Frissítve:** 2026. október 26.
+**Frissítve:** 2026. november 11.
 
 ## Kapcsolat
 
@@ -14,7 +14,7 @@ Az alkalmazásban: **Továbbiak → Fiók és beállítások → Fiók törlése
 
 Ha az alkalmazást nem tudja elérni, e-mailben is kérheti a törlést. Írja meg, hogy az aprópénz-fiók és a kapcsolódó adatok törlését kéri; lehetőleg a bejelentkezéshez használt e-mail-címéről írjon. Vendégfióknál jelezze, hogy vendégként használta az alkalmazást. A jogosultság ellenőrzéséhez további, arányos azonosításra lehet szükség; jelszót nem kérünk.
 
-A törlés a fiókot és a hozzá rendelt, a törlési folyamat által kezelt adatokat érinti. A saját tulajdonú háztartás és tagsági kapcsolatai megszűnnek; más tagok saját rekordjai nem törlődnek automatikusan. A művelet nem vonható vissza. Szolgáltatói naplókra, biztonsági másolatokra, áruházi adatokra és a készüléken maradt fájlokra eltérő megőrzés vonatkozhat. Részletek az [Adatkezelési tájékoztató 7. pontjában](privacy#7-megőrzés-és-törlés).
+A törlés a fiókot és a hozzá rendelt, a törlési folyamat által kezelt adatokat érinti. A saját tulajdonú háztartás és annak összes közös adata – a többi tag közös tételeivel együtt – törlődik. A művelet nem vonható vissza. Szolgáltatói naplókra, biztonsági másolatokra, áruházi adatokra és a készüléken maradt fájlokra eltérő megőrzés vonatkozhat. Részletek az [Adatkezelési tájékoztató 7. pontjában](privacy#7-megőrzés-és-törlés).
 
 **A fióktörlés és az alkalmazás eltávolítása nem mondja le az előfizetést.**
 
@@ -39,11 +39,11 @@ A törlés a fiókot és a hozzá rendelt, a törlési folyamat által kezelt ad
 
 **A widgetből indított tétel még nincs az előzményekben.** A rögzítés feldolgozásra vagy javításra várhat. Nyissa meg az alkalmazást, ellenőrizze a rögzítés állapotát és az előzményeket. A megfelelően felismert widgettétel automatikusan mentődhet; bizonytalan tételnél egészítse ki a mezőket. A függőben lévő widgetrögzítések helyben megmaradhatnak, de ez nem azonos a tranzakció sikeres mentésével.
 
-**Nem működik a hangbevitel.** Engedélyezze a mikrofont a készülék beállításaiban, ellenőrizze az internetkapcsolatot és az aktív próbaidőt vagy előfizetést. A hangot külső AI-szolgáltatás dolgozza fel. Ha ez nem megfelelő, válassza a kézi bevitelt. Egy felvétel legfeljebb kb. 55 másodperces lehet; hosszabb rögzítésnél az alkalmazás automatikusan leállítja és feldolgozza. Használati korlát vagy szolgáltatási hiba esetén próbálja újra később.
+**Nem működik a hangbevitel.** Engedélyezze a mikrofont a készülék beállításaiban, ellenőrizze az internetkapcsolatot és az aktív próbaidőt vagy előfizetést. A hangot külső AI-szolgáltatás dolgozza fel; ha ez nem megfelelő, válassza a kézi bevitelt. Egy felvétel legfeljebb kb. egyperces lehet, utána az alkalmazás automatikusan leállítja és feldolgozza. Használati korlát vagy szolgáltatási hiba esetén próbálja újra később.
 
 **Nem tudom elfogadni a háztartási meghívót.** A meghívót csak olyan fiókkal fogadhatja el, amelynek ellenőrzött e-mail-címe megegyezik a meghívott címmel – például az ezzel a címmel használt Google- vagy Apple-fiókkal. Vendégfiókkal a meghívó nem fogadható el; előbb kapcsolja a vendégfiókot bejelentkezési fiókhoz. Apple „E-mail-cím elrejtése” használatakor a meghívót a továbbító (privaterelay) címre kell küldeni.
 
-**Ki látja a háztartási tételeimet?** A közös nézethez rendelt adatok a háztartás tagjai számára elérhetők. Rögzítés előtt ellenőrizze a nézetet. A tagság megszüntetése nem jelent minden korábbi közös rekordra kiterjedő adattörlést.
+**Ki látja a háztartási tételeimet?** A közös nézethez rendelt adatok a háztartás tagjai számára elérhetők. Rögzítés előtt ellenőrizze a nézetet. Kilépéskor a közös tételek a háztartásban maradnak; a háztartás törlése az összes közös adatot törli.
 
 **Hogyan kérhetem ki az adataimat?** Írjon a támogatási címre hozzáférési vagy adathordozhatósági kérelemmel. A kérelmet azonosítás után, az alkalmazandó feltételek szerint kezeljük.
 

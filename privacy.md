@@ -1,136 +1,118 @@
 # Adatkezelési tájékoztató
 
-**Frissítve:** 2026. november 1.
+**Frissítve:** 2026. november 11.
 
 Ez a tájékoztató az **aprópénz** mobilalkalmazásban kezelt személyes adatokról, azok felhasználásáról és az Ön jogairól szól. A tájékoztató megismerése nem jelent általános hozzájárulást minden adatkezeléshez: az egyes célok jogalapját külön ismertetjük.
 
 ## 1. Adatkezelő és kapcsolat
 
-**Ladányi Kristóf egyéni vállalkozó**
+**Ladányi Kristóf egyéni vállalkozó**, az alkalmazás üzemeltetője, aki az adatkezelés célját és módját meghatározza.
 
-- Székhely: 1071 Budapest, Dembinszky utca 46. 4. em. 57.
-- Nyilvántartási szám: 61940565
-- Adószám: 91805917-1-42
 - E-mail: [apropenzapp@gmail.com](mailto:apropenzapp@gmail.com)
-
-Az adatkezelő az alkalmazás üzemeltetője, aki az adatkezelés célját és módját meghatározza. A Firebase az alkalmazás felhasználói adatainak kezelésében általában az üzemeltető adatfeldolgozójaként jár el.
+- Postai cím és nyilvántartási adatok: a [Felhasználási feltételek](aszf) 1. pontjában.
 
 ## 2. Milyen adatokat kezelünk?
 
-| Adatkör                    | Tartalom és forrás                                                                                                                                                                                                                                                                                                                    |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Fiók és profil             | Firebase-felhasználói azonosító, vendégfiók jelzése, létrehozási idő, bevezető lépések teljesítése; Google- vagy Apple-bejelentkezésnél az elérhető név, e-mail-cím és profilkép. Vendégként nem szükséges nevet vagy e-mail-címet megadni.                                                                                           |
-| Pénzügyi nyilvántartás     | Ön által megadott kiadások és bevételek, forintösszegek, dátumok, megjegyzések, kategóriák és kategórialeírások, sablonok, ismétlődési beállítások, költségkeretek.                                                                                                                                                                   |
-| Háztartás                  | Háztartás neve, tulajdonosa, tagsági kapcsolatok, meghívott e-mail-címe, meghívó és meghívási állapot, közös nézethez rendelt pénzügyi adatok. A meghívó elfogadásához a bejelentkezési szolgáltató által ellenőrzött e-mail-cím szükséges.                                                                                           |
-| Szöveges bevitel és widget | Beírt szöveg, rögzítési idő, választott személyes vagy közös nézet, felismert és javított mezők, piszkozatok, feldolgozási állapotok és bizonylatok.                                                                                                                                                                                  |
-| Hangbevitel                | Az Ön által indított hangfelvétel, az abból felismert kiadási adatok és a feldolgozáshoz szükséges kategóriák.                                                                                                                                                                                                                        |
-| Hozzáférés és vásárlás     | Próbaidő kezdete és vége, előfizetési jogosultság és lejárat, vásárlási és megújítási információk, áruházi tranzakcióazonosítók. Bankkártyaszámot az alkalmazás nem kap meg.                                                                                                                                                          |
-| Használati jelzések        | Bevezető lépések és legalább három tranzakció alapján számított aktiválási jelzés, személyes tranzakciószám-tartomány, valamint a költségkeret és a hangbevitel használatának igen/nem jelzése.                                                                                                                                       |
-| Használati statisztika     | Megnyitott képernyők és funkcióhasználati események (például bejelentkezési mód, rögzítési mód, tételszámok, AI-feldolgozás sikeressége és időtartama, előfizetési képernyő megtekintése), alkalmazásverzió, eszközmodell és operációs rendszer. Összegeket, megjegyzéseket, kategórianeveket, neveket és e-mail-címeket nem küldünk. |
-| Működés és biztonság       | Hibajelentések, hibaüzenetek, technikai környezet és alkalmazásverzió, felhasználói azonosító, API-használati számlálók, időbélyegek, biztonsági és hitelesítési adatok. A szolgáltatók a kérések fogadásakor IP-címet és más technikai adatokat is kezelhetnek.                                                                      |
-| Ügyfélszolgálat            | Az elküldött e-mail-cím, üzenet és az Ön által csatolt információk.                                                                                                                                                                                                                                                                   |
+| Adatkör                    | Tartalom és forrás                                                                                                                                                                                                                                                           |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Fiók és profil             | Felhasználói azonosító, vendégfiók jelzése, létrehozási idő, bevezető lépések; Google- vagy Apple-bejelentkezésnél az elérhető név, e-mail-cím és profilkép. Vendégként nem kell nevet vagy e-mailt megadni.                                                                 |
+| Pénzügyi nyilvántartás     | Ön által megadott kiadások és bevételek, összegek, dátumok, megjegyzések, kategóriák és leírásaik, sablonok, ismétlődési beállítások, költségkeretek.                                                                                                                        |
+| Háztartás                  | Háztartás neve, tulajdonosa, tagjai, meghívott e-mail-címe és a meghívó állapota, a közös nézethez rendelt pénzügyi adatok.                                                                                                                                                  |
+| Szöveges bevitel és widget | Beírt szöveg, rögzítési idő, választott nézet, felismert és javított mezők, piszkozatok és feldolgozási állapotok.                                                                                                                                                           |
+| Hangbevitel                | Az Ön által indított hangfelvétel és az abból felismert kiadási adatok.                                                                                                                                                                                                      |
+| Hozzáférés és vásárlás     | Próbaidő, előfizetési jogosultság és lejárat, vásárlási és megújítási információk, áruházi tranzakcióazonosítók. Bankkártyaszámot az alkalmazás nem kap meg.                                                                                                                 |
+| Használati adatok          | Megnyitott képernyők, funkcióhasználati események és összesített használati jelzések (például aktiválás, tranzakciószám-tartomány), alkalmazásverzió, eszközmodell, operációs rendszer. Összegeket, megjegyzéseket, kategórianeveket, neveket és e-mail-címeket nem küldünk. |
+| Működés és biztonság       | Hibajelentések, technikai környezet, felhasználói azonosító, használati számlálók, időbélyegek, hitelesítési és biztonsági adatok. A szolgáltatók IP-címet és más technikai adatokat is kezelhetnek.                                                                         |
+| Ügyfélszolgálat            | Az Ön e-mail-címe, üzenete és az általa csatolt információk.                                                                                                                                                                                                                 |
 
-Ne írjon jelszót, bankkártyaadatot vagy szükségtelenül érzékeny személyes adatot a megjegyzésekbe, kategórialeírásokba vagy AI-nak küldött szövegbe; más személy hangját és adatait csak megfelelő jogosultsággal adja meg.
+Ne írjon jelszót, bankkártyaadatot vagy szükségtelenül érzékeny adatot a megjegyzésekbe, kategórialeírásokba vagy AI-nak küldött szövegbe; más személy hangját és adatait csak megfelelő jogosultsággal adja meg.
 
 ## 3. Célok és jogalapok
 
-| Cél                                                                                                                               | Jogalap                                                                                                                                                    |
-| --------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Fiók, pénzügyi nyilvántartás, szinkronizálás, költségkeretek, sablonok és az Ön által választott háztartási megosztás működtetése | Szerződés teljesítése, GDPR 6. cikk (1) b).                                                                                                                |
-| Ön által igénybe vett szöveges vagy hangos feldolgozás, widgetrögzítés                                                            | A kért szolgáltatás teljesítése, GDPR 6. cikk (1) b). A mikrofonhoz külön készülékengedély szükséges; ez önmagában nem általános adatvédelmi hozzájárulás. |
-| Próbaidő és előfizetési jogosultság ellenőrzése                                                                                   | Szerződés teljesítése, GDPR 6. cikk (1) b).                                                                                                                |
-| Visszaélések megelőzése, szolgáltatásbiztonság, hibafeltárás és használati korlátok                                               | Jogos érdek, GDPR 6. cikk (1) f): a szolgáltatás és a felhasználói adatok védelme, megbízható működés.                                                     |
-| Korlátozott használati jelzések alapján az előfizetési ajánlatok és az aktiválás értékelése                                       | Jogos érdek, GDPR 6. cikk (1) f): a szolgáltatás használatának és az előfizetési ajánlatok eredményességének megértése. Ezzel szemben tiltakozhat.         |
-| Használati statisztika a funkciók fejlesztéséhez és hibás folyamatok feltárásához (PostHog)                                       | Jogos érdek, GDPR 6. cikk (1) f): annak megértése, mely funkciók működnek jól és hol akadnak el a felhasználók. Az alkalmazásban kikapcsolható (9. pont).  |
-| Ügyfélszolgálat és adatvédelmi kérelmek                                                                                           | Szerződés teljesítése, illetve jogi kötelezettség teljesítése, GDPR 6. cikk (1) b) és c), a megkeresés jellegétől függően.                                 |
+| Cél                                                                                                         | Jogalap                                                                                                                                              |
+| ----------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Fiók, pénzügyi nyilvántartás, szinkronizálás, költségkeretek, sablonok és a választott háztartási megosztás | Szerződés teljesítése, GDPR 6. cikk (1) b).                                                                                                          |
+| Ön által indított szöveges vagy hangos feldolgozás, widgetrögzítés                                          | Szerződés teljesítése, GDPR 6. cikk (1) b). Az AI-feldolgozás előtti engedélykérés (4. pont) és a mikrofon készülékengedélye ezen felüli biztosíték. |
+| Próbaidő és előfizetési jogosultság                                                                         | Szerződés teljesítése, GDPR 6. cikk (1) b).                                                                                                          |
+| Visszaélések megelőzése, szolgáltatásbiztonság, hibafeltárás, használati korlátok                           | Jogos érdek, GDPR 6. cikk (1) f): a szolgáltatás és a felhasználói adatok védelme, megbízható működés.                                               |
+| Az előfizetési ajánlatok és az aktiválás értékelése korlátozott használati jelzések alapján                 | Jogos érdek, GDPR 6. cikk (1) f): a szolgáltatás használatának és az ajánlatok eredményességének megértése. Ezzel szemben tiltakozhat.               |
+| Használati statisztika a funkciók fejlesztéséhez és hibás folyamatok feltárásához (PostHog)                 | Jogos érdek, GDPR 6. cikk (1) f): annak megértése, mely funkciók működnek jól. Az alkalmazásban kikapcsolható (9. pont).                             |
+| Ügyfélszolgálat és adatvédelmi kérelmek                                                                     | Szerződés teljesítése, illetve jogi kötelezettség, GDPR 6. cikk (1) b) és c), a megkeresés jellegétől függően.                                       |
 
-A fiók és az adott funkció működéséhez szükséges adatok nélkül az érintett szolgáltatás nem nyújtható. A hangbevitel és a háztartási megosztás választható; kiadást kézi űrlapon is rögzíthet.
+A fiók és az adott funkció működéséhez szükséges adatok nélkül az érintett szolgáltatás nem nyújtható. A hangbevitel, az AI-feldolgozás és a háztartási megosztás választható; kiadást kézi űrlapon is rögzíthet.
 
 ## 4. AI-funkciók és hangfelvétel
 
-Az alábbi AI-feldolgozáshoz az alkalmazás az első használat előtt külön kéri az Ön kifejezett engedélyét: megnevezi az OpenAI-t, felsorolja az átadott adatokat, és csak az elfogadás után küld adatot. Elutasítás esetén a kiadást kézzel rögzítheti. Az engedélyt bármikor visszavonhatja a **Fiók és beállítások → Adatvédelem** részben; a visszavonás után nem indítunk újabb AI-feldolgozást. Az engedély verzióját és időpontját a fiókjához tároljuk.
+Az AI-feldolgozás első használata előtt az alkalmazás külön kéri az Ön kifejezett engedélyét, megnevezi az OpenAI-t és az átadott adatokat, és csak az elfogadás után küld adatot. Elutasítás esetén a kiadást kézzel rögzítheti. Az engedélyt bármikor visszavonhatja a **Fiók és beállítások → Adatvédelem** részben; ezután nem indítunk újabb AI-feldolgozást. Az engedély verzióját és időpontját a fiókjához tároljuk.
 
-### Szöveges értelmezés és kategorizálás – OpenAI
+**Szöveges bevitel.** A szöveg egy része helyben értelmezhető. AI-feldolgozáskor az értelmezendő szöveget, a kapcsolódó kiadási mezőket, a kategóriák nevét és leírását, valamint a dátumértelmezéshez szükséges adatot továbbítjuk az OpenAI-nak. A kategórialeírásokba írt személyes információk is részei lehetnek az átadásnak. Nevét és e-mail-címét nem küldjük el.
 
-A szöveges bevitel egy része helyben értelmezhető. Amikor AI-feldolgozás történik, a szerver az értelmezendő szöveget, a kapcsolódó kiadási mezőket, a kategóriák azonosítóit, neveit és leírásait, valamint az értelmezéshez szükséges dátumot továbbítja az OpenAI API-nak. A kategórialeírásokba írt személyes információk is részei lehetnek ennek az adatátadásnak. Az AI-kérés összeállításához nem szükséges a felhasználó neve vagy e-mail-címe.
+**Hangbevitel.** A mikrofont csak az Ön által indított, rövid felvételhez használjuk; háttérben nem rögzítünk. A felvételt szerverünk átírásra továbbítja az OpenAI-nak, majd az átiratot a fenti szöveges feldolgozással értelmezi. A nyers hangot és az átiratot nem mentjük a nyilvántartásba, a szerveren keletkező átmeneti fájlt a feldolgozás után töröljük. A készüléken a felvétel ideiglenes fájlként az alkalmazás gyorsítótárában maradhat, amíg azt a rendszer vagy az alkalmazás adatainak törlése el nem távolítja.
 
-Az OpenAI API adatait alapértelmezés szerint nem használja modelljei tanítására. A szövegkinyerési kérésben a válasz szolgáltatói tárolását letiltjuk; ez nem jelenti a szolgáltatói biztonsági naplók kizárását. Az OpenAI alapértelmezett visszaélés-figyelési naplói legfeljebb 30 napig őrizhetők meg, jogi vagy biztonsági kivételekkel. Részletek: [OpenAI adatkezelési beállítások](https://developers.openai.com/api/docs/guides/your-data).
+**Szolgáltatói megőrzés.** Az OpenAI az API-n küldött adatokat alapértelmezés szerint nem használja modelljei tanítására, és visszaélés-figyelés céljából legfeljebb 30 napig őrizheti, jogi vagy biztonsági kivételekkel. Részletek: [OpenAI adatkezelés](https://developers.openai.com/api/docs/guides/your-data).
 
-### Hangbevitel – OpenAI
-
-A mikrofon csak az Ön által indított felvételhez szükséges. A feldolgozás indításakor a hangfelvétel a Firebase szerverére kerül. A szerver átmeneti fájlban ellenőrzi és egységes hangformátumra alakítja, majd ezt a változatot küldi az OpenAI átíró API-jának. Az átmeneti szerverfájlt a feldolgozás után – sikeres és sikertelen esetben is – töröljük. Egy felvétel legfeljebb kb. egyperces lehet; a határ elérésekor az alkalmazás automatikusan leállítja és feldolgozza a felvételt. Az elkészült átiratot egy második OpenAI-kérés értelmezi, a kiadási kategóriák nevével, leírásával és a dátumértelmezéshez szükséges információval együtt. A válaszban felismert összegek, dátumok, kategóriák és megjegyzések jelennek meg.
-
-Az alkalmazás backendje nem menti a nyers hangot a pénzügyi adatbázisba. A készüléken átmeneti hangfájl keletkezik, amelyet a jelenlegi megvalósítás nem minden esetben töröl kifejezetten a feldolgozás után. Az átiratot sem mentjük a pénzügyi adatbázisba. Az értelmezési kérésnél is letiltjuk a válasz szolgáltatói tárolását. A szolgáltatói adatkezelésre az OpenAI fent hivatkozott feltételei és a tényleges fiókbeállítások irányadók. Az alkalmazás nem végez háttérben folyamatos hangrögzítést.
-
-### Eredmények és automatikus rögzítés
-
-A normál szöveges és hangos bevitel eredményeit mentés előtt ellenőrizheti és javíthatja. A widgetből indított gyorsrögzítés megfelelően felismerhető kiadást automatikusan elmenthet; a bizonytalan tételek ellenőrzésre várnak. Az AI tévedhet, ezért a mentett tételeket is érdemes ellenőrizni. Ezek a funkciók nem hoznak hitelbírálati vagy más, Önre joghatással járó pénzügyi döntést.
+**Eredmények.** A szöveges és hangos bevitel eredményét mentés előtt ellenőrizheti és javíthatja. A widgetből indított gyorsrögzítés a megfelelően felismert kiadást automatikusan elmentheti; a bizonytalan tételek ellenőrzésre várnak. Az AI tévedhet, ezért a mentett tételeket is érdemes ellenőrizni. Ezek a funkciók nem hoznak Önre joghatással járó automatizált döntést.
 
 ## 5. Kik férhetnek hozzá az adatokhoz?
 
-- **Google Firebase / Google Cloud:** hitelesítés, Firestore-adattárolás, szerveroldali feldolgozás, technikai naplók és App Check biztonsági ellenőrzések. [Firebase adatvédelem](https://firebase.google.com/support/privacy).
-- **OpenAI:** a 4. pont szerinti szöveges értelmezés, kategorizálás és hangfeldolgozás.
-- **RevenueCat:** felhasználói azonosító, előfizetési és vásárlási információk, technikai adatok, valamint az aktiválás, tranzakciószám-tartomány (`0`, `1–2`, `3–9`, `10–49`, `50+`), költségkeret- és hangbevitel-használat jelzése. Az alkalmazás ezekben az egyéni attribútumokban nem küld konkrét összegeket, tranzakcióleírásokat, kategórianeveket vagy hangot. [RevenueCat adatvédelem](https://www.revenuecat.com/privacy).
-- **PostHog:** a 2. pont szerinti használati statisztika és használati jelzések, a Firebase-felhasználói azonosítóhoz kapcsolva, a PostHog frankfurti (EU) adatközpontjában. A munkamenet-visszajátszás és az érintések automatikus rögzítése ki van kapcsolva. [PostHog adatvédelem](https://posthog.com/privacy).
-- **Sentry:** hibakövetés, technikai hibajelentések és a Firebase-felhasználói azonosító. Az automatikus személyesadat-küldést és a naplóküldést kikapcsoltuk; ez nem zárja ki, hogy egy hibaüzenet személyes adatot tartalmazzon. [Sentry adatvédelem](https://sentry.io/privacy/).
-- **Google és Apple bejelentkezési szolgáltatás:** a választott bejelentkezéshez szükséges adatok. [Google adatvédelem](https://policies.google.com/privacy), [Apple adatvédelem](https://www.apple.com/legal/privacy/).
+- **Google Firebase / Google Cloud:** hitelesítés, adattárolás, szerveroldali feldolgozás, technikai naplók és biztonsági ellenőrzések. [Firebase adatvédelem](https://firebase.google.com/support/privacy).
+- **OpenAI:** a 4. pont szerinti szöveg- és hangfeldolgozás.
+- **RevenueCat:** felhasználói azonosító, előfizetési és vásárlási információk, technikai adatok és a 2. pont szerinti összesített használati jelzések. Összegeket, leírásokat, kategórianeveket vagy hangot nem küldünk. [RevenueCat adatvédelem](https://www.revenuecat.com/privacy).
+- **PostHog:** használati statisztika a felhasználói azonosítóhoz kapcsolva, EU-s adatközpontban. Munkamenet-visszajátszást nem használunk. [PostHog adatvédelem](https://posthog.com/privacy).
+- **Sentry:** technikai hibajelentések és a felhasználói azonosító. Egy hibaüzenet kivételesen személyes adatot tartalmazhat. [Sentry adatvédelem](https://sentry.io/privacy/).
+- **Google és Apple bejelentkezés:** a választott bejelentkezéshez szükséges adatok. [Google adatvédelem](https://policies.google.com/privacy), [Apple adatvédelem](https://www.apple.com/legal/privacy/).
 - **Apple App Store / Google Play:** vásárlás és fizetés, saját feltételeik szerint. A fizetési adatokat az áruház kezeli.
-- **Háztartás tagjai:** a közös nézethez rendelt adatok és a tagság kezeléséhez szükséges profiladatok. A személyes és a közös nézet közötti választás előtt ellenőrizze, kivel kívánja megosztani a tételt.
+- **Háztartás tagjai:** a közös nézethez rendelt adatok és a tagság kezeléséhez szükséges profiladatok. Rögzítés előtt ellenőrizze, melyik nézetbe menti a tételt.
 
-A Google és az Apple például a saját fiók- és fizetési szolgáltatásukhoz önálló adatkezelőként is eljárhatnak. A külső szolgáltatók igénybevétele nem szünteti meg az alkalmazás üzemeltetőjének adatkezelői felelősségét.
+A szolgáltatók az adatokat a velük kötött szerződések szerint, a jelen tájékoztatóval és a GDPR-ral összhangban álló védelemmel kezelik. A Google és az Apple a saját fiók- és fizetési szolgáltatásukhoz önálló adatkezelőként is eljárhat. A szolgáltatók igénybevétele nem szünteti meg az üzemeltető adatkezelői felelősségét.
 
 ## 6. Tárolás, biztonság és nemzetközi adattovábbítás
 
-A felhőadatokat Firebase-ben tároljuk: az adatbázis és a szerverfunkciók az Európai Unión belüli adatközpontokban működnek, a hibajelentéseket és a használati statisztikát EU-s adatközpontba küldjük. Ez önmagában nem jelenti, hogy valamennyi szolgáltató minden adatot kizárólag az EU-ban kezel. Az AI-, hitelesítési, előfizetési, elemzési és hibakövetési szolgáltatások az EGT-n kívül, például az Egyesült Államokban is végezhetnek adatkezelést.
+Az adatbázis, a szerverfunkciók, a hibajelentések és a használati statisztika EU-s adatközpontokban működnek. Az AI-, hitelesítési, előfizetési, elemzési és hibakövetési szolgáltatók az EGT-n kívül, például az Egyesült Államokban is kezelhetnek adatot. Az ilyen továbbítás megfelelőségi határozat vagy általános szerződési feltételek alapján történik; a garanciákról a kapcsolattartási címen kérhet tájékoztatást.
 
-Az ilyen továbbításokhoz az alkalmazandó szolgáltatói szerződések szerinti GDPR-garanciák szükségesek, például megfelelőségi határozat vagy általános szerződési feltételek. A ténylegesen alkalmazott garanciákról és azok másolatáról a kapcsolattartási címen kérhet tájékoztatást.
+Az adatátvitel titkosított, a hozzáférést hitelesítés és jogosultsági szabályok védik. Teljes kockázatmentességet nem lehet garantálni.
 
-A hálózati adatátvitel titkosított. A hozzáférést hitelesítés, adatbázis-jogosultságok és további biztonsági ellenőrzések védik. Teljes kockázatmentességet nem lehet garantálni.
-
-A készülék helyi tárhelyén bejelentkezési állapot, beállítások és gyorsrögzítési piszkozatok is maradhatnak. Ezek nem mind azonosak a szerveren tárolt adatokkal; a kijelentkezés nem jelent minden helyi adatot érintő törlést.
+A készüléken bejelentkezési állapot, beállítások és gyorsrögzítési piszkozatok is maradhatnak; a kijelentkezés ezeket nem feltétlenül törli.
 
 ## 7. Megőrzés és törlés
 
-- A profil és a pénzügyi nyilvántartás adatait a fiók fennállásáig, illetve az adott adat törléséig kezeljük. A próbaidő vagy előfizetés lejárata önmagában nem törli a korábbi adatokat.
-- A widget szerveroldali feldolgozási rekordjai és használati számlálói megmaradhatnak a fiók törléséig; a helyi piszkozat eltávolítása nem feltétlenül törli a szerver feldolgozási rekordját.
-- A fióktörlés a **Továbbiak → Fiók és beállítások → Fiók törlése** útvonalon indítható, vagy e-mailben kérhető. Az e-mailes kérelemnél a jogosultságot ellenőrizzük.
-- A fióktörlés eltávolítja a Firebase-fiókot és a hozzá tartozó, az alkalmazás törlési folyamatával kezelt profilt, saját pénzügyi rekordokat, hozzáférési és használati adatokat, valamint az érintett meghívókat. A saját tulajdonú háztartás megszűnik, tagjainál a tagsági kapcsolat törlődik. Más tagok által létrehozott rekordok nem válnak ettől automatikusan az Ön törlendő adataivá.
+- A profilt és a pénzügyi nyilvántartást a fiók fennállásáig, illetve az adott adat törléséig kezeljük. A próbaidő vagy előfizetés lejárata nem törli a korábbi adatokat.
+- A fióktörlés a **Továbbiak → Fiók és beállítások → Fiók törlése** útvonalon indítható, vagy e-mailben kérhető; e-mailes kérelemnél a jogosultságot ellenőrizzük.
+- A fióktörlés eltávolítja a fiókot, a profilt, a saját pénzügyi rekordokat, a hozzáférési és használati adatokat, a feldolgozási rekordokat és az érintett meghívókat. A saját tulajdonú háztartás az összes közös adatával együtt – a többi tag által rögzített közös tételeket is beleértve – törlődik, a tagoknál a tagság megszűnik.
 - Megőrzési idők:
     - Sentry hibajelentések: legfeljebb 90 nap.
     - PostHog használati események: legfeljebb 1 év.
-    - Google Cloud technikai naplók: 30 nap; a Google által kötelezően vezetett rendszer- és auditnaplók legfeljebb 400 nap.
-    - OpenAI: a 4. pont szerint, alapértelmezés szerint legfeljebb 30 nap.
-    - RevenueCat előfizetési és ügyféladatok: a fiók fennállásáig, illetve törlési kérelemig.
-    - Ügyfélszolgálati levelezés: panasz esetén a fogyasztóvédelmi szabályok szerint 3 év, egyéb megkeresésnél a lezárástól számított 1 év.
-- A törlés nem vonható vissza. Az alkalmazás nem ígér minden rendszerre és biztonsági másolatra kiterjedő azonnali törlést: a szolgáltatói naplók, biztonsági másolatok, áruházi bizonylatok és jogszabály alapján megőrzendő adatok külön megőrzés alá eshetnek. A Firebase Authentication tájékoztatója szerint a törlés kezdeményezése után a hitelesítési adatok eltávolítása az éles és mentési rendszerekből legfeljebb 180 napot vehet igénybe.
-- A jelenlegi fióktörlési folyamat nem indít külön RevenueCat-, Sentry- vagy PostHog-adattörlést. Az ezekhez kapcsolódó kérelmekkel is írhat az adatvédelmi címre; a kérelem terjedelméről és a megőrzés indokairól tájékoztatást adunk.
-- A készüléken maradt adatok eltávolításához az alkalmazás helyi adatainak törlése is szükséges lehet. A készülék és az operációs rendszer mentései külön kezelendők.
+    - Google Cloud technikai naplók: 30 nap; a kötelező rendszer- és auditnaplók legfeljebb 400 nap.
+    - OpenAI: a 4. pont szerint, legfeljebb 30 nap.
+    - RevenueCat előfizetési adatok: a fiók fennállásáig, illetve törlési kérelemig.
+    - Ügyfélszolgálati levelezés: panasz esetén 3 év, egyéb megkeresésnél a lezárástól számított 1 év.
+- A fióktörlés a RevenueCat-, Sentry- és PostHog-adatokra nem terjed ki automatikusan: a Sentry- és PostHog-adatok a fenti idő leteltével törlődnek, ezek korábbi törlését, illetve a RevenueCat-adatok törlését e-mailben kérheti.
+- A törlés nem vonható vissza. Szolgáltatói naplók, biztonsági másolatok, áruházi bizonylatok és jogszabály alapján megőrzendő adatok a fenti vagy jogszabályi ideig megmaradhatnak; a hitelesítési adatok teljes eltávolítása a Firebase szerint legfeljebb 180 napig tarthat. A készüléken maradt adatokat az alkalmazás vagy adatainak törlésével távolíthatja el.
 
-**A fiók vagy az alkalmazás törlése nem mondja le az áruházi előfizetést.** A megújítást külön kell leállítani az Apple vagy a Google előfizetési beállításaiban.
+**A fiók vagy az alkalmazás törlése nem mondja le az áruházi előfizetést.** A megújítást az Apple vagy a Google előfizetési beállításaiban kell leállítani.
 
 ## 8. Jogok és kérelmek
 
-Az alkalmazandó feltételek szerint kérheti a hozzáférést, helyesbítést, törlést, az adatkezelés korlátozását és a szerződésen vagy hozzájáruláson alapuló, automatizáltan kezelt adatok hordozhatóságát. Jogos érdeken alapuló adatkezeléssel szemben saját helyzetére tekintettel tiltakozhat. Hozzájáruláson alapuló adatkezelésnél a hozzájárulást bármikor visszavonhatja, a korábbi kezelés jogszerűségének érintése nélkül.
+Kérheti a hozzáférést, helyesbítést, törlést, az adatkezelés korlátozását és az adathordozhatóságot. Jogos érdeken alapuló adatkezeléssel szemben tiltakozhat. Hozzájárulását bármikor visszavonhatja, a korábbi kezelés jogszerűségének érintése nélkül.
 
-Kérelmét az [apropenzapp@gmail.com](mailto:apropenzapp@gmail.com) címre küldheti. Az adatok védelmében szükség lehet személyazonossága arányos ellenőrzésére. Indokolatlan késedelem nélkül, főszabály szerint egy hónapon belül válaszolunk; indokolt hosszabbításról és annak okáról ezen belül tájékoztatjuk. Az adathordozhatósági kérelmet e-mailben lehet előterjeszteni; nem állítjuk, hogy az alkalmazásban külön exportgomb érhető el.
+Kérelmét az [apropenzapp@gmail.com](mailto:apropenzapp@gmail.com) címre küldheti. Szükség lehet személyazonossága arányos ellenőrzésére. Indokolatlan késedelem nélkül, főszabály szerint egy hónapon belül válaszolunk; indokolt hosszabbításról ezen belül tájékoztatjuk.
 
-Panaszt tehet az illetékes felügyeleti hatóságnál, Magyarországon a **Nemzeti Adatvédelmi és Információszabadság Hatóságnál (NAIH)**, és bírósághoz fordulhat:
+Panaszt tehet a **Nemzeti Adatvédelmi és Információszabadság Hatóságnál (NAIH)**, és bírósághoz fordulhat:
 
 - [NAIH ügyfélszolgálat és hivatalos ügyintézési lehetőségek](https://naih.hu/ugyfelszolgalat-kapcsolat)
 - Cím: 1055 Budapest, Falk Miksa utca 9–11.
 - Levelezési cím: 1363 Budapest, Pf. 9.
-- E-mail: ugyfelszolgalat@naih.hu. A NAIH tájékoztatása szerint eljárás egyszerű e-mailben nem kezdeményezhető; a hivatalos benyújtási módokat a hivatkozott oldalon találja.
 
 ## 9. Gyermekek, hirdetések és használati elemzés
 
-Az alkalmazást nagykorú, 18. életévüket betöltött felhasználóknak szánjuk. Ha kiskorú adatainak kezeléséről tud, jelezze a kapcsolattartási címen, és az adatokat töröljük.
+Az alkalmazást 18. életévüket betöltött felhasználóknak szánjuk. Ha kiskorú adatainak kezeléséről tud, jelezze, és az adatokat töröljük.
 
-Az alkalmazás nem jelenít meg hirdetéseket, és nem követi Önt más alkalmazásokban vagy weboldalakon. Használati elemzést végzünk: a PostHog használati statisztikát, a RevenueCat használati attribútumokat és előfizetési adatokat, a Sentry technikai hibajelentéseket kezel az 5. pont szerint. Ezek a fiókhoz kapcsolhatók, ezért nem tekintjük őket anonim adatoknak.
+Az alkalmazás nem jelenít meg hirdetéseket, és nem követi Önt más alkalmazásokban vagy weboldalakon. Az 5. pont szerinti használati és hibaadatok a fiókhoz kapcsolhatók, ezért nem tekintjük őket anonimnak.
 
-A használati statisztikát a **Továbbiak → Fiók és beállítások → Adatvédelem → Használati statisztikák** kapcsolóval kikapcsolhatja. Kikapcsolás után az adott készülék nem küld használati eseményt, és az AI-funkciók szerveroldali eredményességi adatait sem rögzítjük az onnan indított kérésekhez. A beállítás készülékenként érvényes; a már elküldött adatok törlését e-mailben kérheti.
+A használati statisztikát a **Továbbiak → Fiók és beállítások → Adatvédelem → Használati statisztikák** kapcsolóval kikapcsolhatja; ezután az adott készülék nem küld használati eseményt a PostHognak. A beállítás készülékenként érvényes; a már elküldött adatok törlését e-mailben kérheti. A RevenueCat-nek küldött használati jelzések ellen e-mailben tiltakozhat.
 
-## 10. Változások és kapcsolódó oldalak
+## 10. Változások
 
-A tájékoztatót a működés változásakor frissítjük, és feltüntetjük a frissítés dátumát. Ahol jogszabály külön tájékoztatást vagy hozzájárulást követel meg, azt a szöveg közzététele vagy az alkalmazás további használata nem helyettesíti.
+A tájékoztatót a működés változásakor frissítjük, és feltüntetjük a frissítés dátumát. Ahol jogszabály külön hozzájárulást követel meg, azt a további használat nem helyettesíti.
 
 [Felhasználási feltételek](aszf) · [Támogatás és fióktörlés](support)
